@@ -1,5 +1,0 @@
-#summary Links to the Source Code.
-
-[http://code.google.com/p/arcade-tonk-tanks/source/browse/#svn/trunk/TonkEngine Browse source code]
-
-[http://code.google.com/p/arcade-tonk-tanks/source/browse/trunk/TonkEngineDemo.py Demo program]
