@@ -64,7 +64,7 @@ def main(winstyle = 0):
             print
 
     # create tileset
-    tileset = TonkEngine.TileSet([TonkEngine.Tile(['b00.PNG'], 0, [0], False, 'water / out of map')])
+    tileset = TonkEngine.TileSet([])
 
     # create map of the world
     tilemap = TonkEngine.TileMap(nr_of_rows = 50, nr_of_columns = 50, tilenr = 0, description = 'Demo map')
@@ -221,4 +221,3 @@ def main(winstyle = 0):
 #####################################################################
 #call the "main" function if running this script
 if __name__ == '__main__': main()
-
