@@ -65,7 +65,22 @@ class Screen():
         self.visiblerect = Rect(self.camera_x - (self.screenwidth/2), self.camera_y - (self.screenheight/2), self.screenwidth, self.screenheight)
         self.visible_x = self.visiblerect.left
         self.visible_y = self.visiblerect.top
-        
+    
+    def draw_background(self, world):
+        for tile in world.tileset.tilelist:
+            tile.update()
+        for y in range(self.visible_y / world.tileset.tileheight,
+                       (self.visible_y + self.screenheight) / world.tileset.tileheight + 1):
+            for x in range(self.visible_x / world.tileset.tilewidth,
+                           (self.visible_x + self.screenwidth) / world.tileset.tilewidth + 1):
+                if x < 0 or y < 0 or x >= world.tilemap.columns or y >= world.tilemap.rows:
+                    tilenr = 0
+                else:
+                    tilenr = world.tilemap.map[x][y]
+                xpos = (x * world.tileset.tilewidth) - self.visible_x
+                ypos = (y * world.tileset.tileheight) - self.visible_y
+                self.background.blit(world.tileset.tilelist[tilenr].image, (xpos, ypos))
+        self.screen.blit(self.background, (0,0))
 
     def update_sprites(self, world):
         self.visiblesprites = []
@@ -89,8 +104,7 @@ class Screen():
                 
     def paint(self, world):
         self.screen.fill((0,33,33))
-        #self.screen.blit(self.background_bottom, (-self.visible_x, -self.visible_y))
+        #self.draw_background(world)
         self.draw_sprites()
-        #self.screen.blit(self.background_top, (-self.visible_x, -self.visible_y))
         pygame.display.flip()
 
