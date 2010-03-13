@@ -16,6 +16,8 @@
 
   * [http://wiki.python.org/moin/GameProgramming List of Python game programming tools]
 
+  * [http://gpwiki.org/index.php/Python Python on the Game Programming Wiki]
+
 ==Pygame==
   * [http://www.pygame.org/ Pygame website]
 
@@ -77,6 +79,7 @@
       * You may want to use [http://numpy.scipy.org/ NumPy] for [http://www.ruthless.zathras.de/facts/apps/polygonesia/3d-transformation-matrix.php matrix transformations]
     * [http://pyglet.org/ Pyglet multimedia library]
       * [http://www.learningpython.com/2007/11/10/creating-a-game-with-pyglet-and-python/ Pyglet game programming tutorial]
+    * [http://code.google.com/p/pgu/ PGU] Phil's Pygame Utilities by Phil Hassey & Peter Rogers
     * [http://code.google.com/p/pygl2d/ PyGL2D] by PyMike
     * [http://www.pygame.org/project-PYGGEL-968-.html PYGGEL] Python Graphical Game Engine + Libraries by RoeBros
     * [http://www.pygame.org/project-glLib+Reloaded-1326-.html glLib Reloaded] by Ian Mallett
@@ -98,11 +101,14 @@
     * [http://irrlicht.sourceforge.net/ Irrlicht]
       * ~~[https://opensvn.csie.org/traccgi/pyrr Pyrr Python bindings for Irrlicht]~~ (out of date & no longer maintained)
     * [http://www.pysoy.org/ pysoy 3D game engine]
+    * [http://www.panda3d.org/ Panda 3D]
+    * [http://home.gna.org/oomadness/en/soya3d/index.html Soya 3D]
 
-  (What I call an "engine" here is quite a mixed bag: graphics engines and game engines, the difference is not always clear. I also included Blender, since it has -among other things- a game engine.)
+  (What I call an "engine" here is quite a mixed bag: graphics engines and game engines, the difference is not always clear. I also included Blender, since it has -among many other things- a game engine.)
 
   * [http://www.vrplumber.com/py3d.py List of Python 3D Software]
   * [http://www.moddb.com/engines/ List of game engines] at Mod DB
+  * [http://gpwiki.org/index.php/Game_Engines List of game engines] at Game Programming Wiki
 
 == Physics ==
   * Tutorial:
@@ -110,6 +116,8 @@
 
   * Libraries:
     * [http://www.pygame.org/project-pyBox2D-723-.html Pybox 2D] by Ken Lauer
+    * [http://www.ode.org/ ODE] Open Dynamics Engine 3D
+      * [http://pyode.sourceforge.net/ Pyode] Python bindings for ODE
     * [http://code.google.com/p/bullet/ Bullet 3D] by Erwin Coumans
 
   * [http://www.adrianboeing.com/pal/index.html PAL: Physics Abstraction Layer] by Adrian Boeing
@@ -139,3 +147,4 @@
   * [http://www.devmaster.net/ DevMaster.net]
   * [http://aigamedev.com/ AiGameDev.com]
   * [http://www.moddb.com/ ModDB.com]
+  * [http://gpwiki.org/ Game Programming Wiki]
