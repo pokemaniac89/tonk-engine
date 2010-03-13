@@ -1,7 +1,7 @@
 #summary Links to free & open source Python game programming resources.
 #labels Featured
 
-===Python===
+==Python==
   * [http://www.python.org/ Python website]
 
   * Documentation:
@@ -14,7 +14,7 @@
 
   * [http://wiki.python.org/moin/GameProgramming List of Python game programming tools]
 
-===Pygame===
+==Pygame==
   * [http://www.pygame.org/ Pygame website]
 
   * Documentation:
@@ -28,7 +28,7 @@
 
   * [http://www.pygame.org/tags/libraries List of Pygame Libraries]
 
-===Networking===
+==Networking==
   * Documentation:
     * [http://docs.python.org/library/socket.html Socket - Low-level networking interface]
 
@@ -46,25 +46,22 @@
     * [http://www.pygame.org/project-Mastermind+Networking+Lib-859-.html Mastermind networking lib] (TCP and UDP) by Ian Mallett
     * [http://code.google.com/p/podsixnet/ Podsixnet game networking library]
     
-=== Graphics ===
+== Graphics ==
   * Tutorials:
     * [http://nehe.gamedev.net/ NeHe OpenGL tutorial] 
       * [http://www.pygame.org/gamelets/games/nehe1-10.zip NeHe Python code]
     * [http://anomtech.uuuq.com/Index.php?page=Tutorials Anomalistic Technologies OpenGL Tutorial]
-
-  * 2D Library:
-    * [http://pyglet.org/ Pyglet multimedia library]
-      * [http://www.learningpython.com/2007/11/10/creating-a-game-with-pyglet-and-python/ Pyglet game programming tutorial]
 
   * 2D Engines:
     * [http://matthewmarshall.org/projects/rabbyt/ Rabbyt fast sprite engine]
     * [http://www.alobbs.com/pykyra Pykyra]
     * [http://code.google.com/p/flamingoengine/ Flamingo 2D game engine]
 
-
   * 3D Libraries:
     * [http://pyopengl.sourceforge.net/ PyOpenGL]
       * You may want to use [http://numpy.scipy.org/ NumPy] for [http://www.ruthless.zathras.de/facts/apps/polygonesia/3d-transformation-matrix.php matrix transformations]
+    * [http://pyglet.org/ Pyglet multimedia library]
+      * [http://www.learningpython.com/2007/11/10/creating-a-game-with-pyglet-and-python/ Pyglet game programming tutorial]
     * [http://www.pygame.org/project-PYGGEL-968-.html PYGGEL]
     * [http://www.pygame.org/project-glLib+Reloaded-1326-.html glLib Reloaded]
 
@@ -83,7 +80,7 @@
   * [http://www.vrplumber.com/py3d.py List of Python 3D Software]
   * [http://www.moddb.com/engines/ List of game engines] at Mod DB
 
-=== Physics ===
+== Physics ==
   * Tutorial:
     * [http://gafferongames.com/game-physics/ Game physics tutorial] by Glenn Fiedler
 
@@ -93,7 +90,7 @@
 
   * [http://www.adrianboeing.com/pal/index.html PAL: Physics Abstraction Layer]
 
-=== Graphical User Interface  ===
+== Graphical User Interface  ==
   * Libraries:
     * [http://wiki.python.org/moin/TkInter Python's standard TkInter GUI]
       * [http://www.informit.com/articles/article.aspx?p=27103&redir=1 Tutorial: Making a CD Player with pygame and Tkinter in Python] by Harvey Deitel & Paul Deitel
@@ -101,7 +98,7 @@
 
   * [http://wiki.python.org/moin/GuiProgramming List of Python GUI tools]
 
-=== Artificial Intelligence ===
+== Artificial Intelligence ==
   * Tutorial:
     * [http://www.policyalmanac.org/games/aStarTutorial.htm A* Pathfinding for Beginners]
 
