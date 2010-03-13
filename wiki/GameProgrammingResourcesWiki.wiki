@@ -12,7 +12,7 @@
     * [http://diveintopython.org/ Dive into Python] by Mark Pilgrim
     * [http://www.greenteapress.com/thinkpython/thinkpython.html How to Think Like a Computer Scientist] by Allen B. Downey 
 
-  * [http://www.stackless.com/ Stackless Python] (used in [http://www.slideshare.net/Arbow/stackless-python-in-eve Eve] [http://us.pycon.org/2009/conference/schedule/event/91/ Online])
+  * [http://www.stackless.com/ Stackless Python] (used in the [http://www.eveonline.com/ EVE Online] servers, presentation [http://www.slideshare.net/Arbow/stackless-python-in-eve 2006] [http://us.pycon.org/2009/conference/schedule/event/91/ 2009])
 
   * [http://wiki.python.org/moin/GameProgramming List of Python game programming tools]
 
@@ -77,7 +77,8 @@
       * You may want to use [http://numpy.scipy.org/ NumPy] for [http://www.ruthless.zathras.de/facts/apps/polygonesia/3d-transformation-matrix.php matrix transformations]
     * [http://pyglet.org/ Pyglet multimedia library]
       * [http://www.learningpython.com/2007/11/10/creating-a-game-with-pyglet-and-python/ Pyglet game programming tutorial]
-    * [http://www.pygame.org/project-PYGGEL-968-.html PYGGEL]
+    * [http://code.google.com/p/pygl2d/ PyGL2D]
+    * [http://www.pygame.org/project-PYGGEL-968-.html PYGGEL] (Python Graphical Game Engine + Libraries)
     * [http://www.pygame.org/project-glLib+Reloaded-1326-.html glLib Reloaded]
 
   * 2D Engines:
