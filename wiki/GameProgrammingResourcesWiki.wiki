@@ -33,6 +33,7 @@
     * [http://docs.python.org/library/socket.html Socket - Low-level networking interface]
 
   * Tutorials:
+    * [http://www.amk.ca/python/howto/sockets/ Socket Programming HOWTO] by Gordon McMillan
     * [http://www.devshed.com/c/a/Python/Sockets-in-Python-Into-the-World-of-Python-Network-Programming/ Sockets in Python] by A.P.Rajshekhar
     * [http://ilab.cs.byu.edu/python/ Python network programming] by Daniel Zappala
     * [http://gafferongames.com/networking-for-game-programmers/ Networking for game programmers] by Glenn Fiedler
@@ -45,6 +46,9 @@
       * [http://www.ibm.com/developerworks/linux/library/l-twist1.html Network programming with the Twisted framework] by David Mertz
     * [http://www.pygame.org/project-Mastermind+Networking+Lib-859-.html Mastermind networking lib] (TCP and UDP) by Ian Mallett
     * [http://code.google.com/p/podsixnet/ Podsixnet game networking library]
+    * [http://opentnl.sourceforge.net/doxydocs/fundamentals.html OpenTNL] (C++)
+    * [http://www.jenkinssoftware.com/raknet/index.html RakNet] (C++)
+    * [http://enet.bespin.org/ enet] (C++)
     
 == Graphics ==
   * Documentation:
@@ -79,6 +83,8 @@
     * [http://irrlicht.sourceforge.net/ Irrlicht]
       * [https://opensvn.csie.org/traccgi/pyrr Pyrr Python bindings for Irrlicht] (out of date & no longer maintained)
     * [http://www.pysoy.org/ pysoy 3D game engine]
+
+  (What I call an "engine" here is quite a mixed bag: graphics engines and game engines, the difference is not always clear. I also included Blender, since it has -among other things- a game engine.)
 
   * [http://www.vrplumber.com/py3d.py List of Python 3D Software]
   * [http://www.moddb.com/engines/ List of game engines] at Mod DB
