@@ -12,6 +12,8 @@
     * [http://diveintopython.org/ Dive into Python] by Mark Pilgrim
     * [http://www.greenteapress.com/thinkpython/thinkpython.html How to Think Like a Computer Scientist] by Allen B. Downey 
 
+  * [http://www.stackless.com/ Stackless Python] (used in [http://www.slideshare.net/Arbow/stackless-python-in-eve Eve] [http://us.pycon.org/2009/conference/schedule/event/91/ Online])
+
   * [http://wiki.python.org/moin/GameProgramming List of Python game programming tools]
 
 ==Pygame==
@@ -44,6 +46,7 @@
     * [http://twistedmatrix.com/trac/ Twisted framework]
       * [http://onlamp.com/pub/a/python/2006/08/10/untwisting-python-network-programming.html Untwisting Python network programming] by Kendrew Lau
       * [http://www.ibm.com/developerworks/linux/library/l-twist1.html Network programming with the Twisted framework] by David Mertz
+      * [http://www.artima.com/weblogs/viewpost.jsp?thread=156396 Grokking Twisted] by Bruce Eckel
     * [http://www.pygame.org/project-Mastermind+Networking+Lib-859-.html Mastermind networking lib] (TCP and UDP) by Ian Mallett
       * [http://www.pygame.org/project-Spacewar+Multi-1025-.html Spacewar Multi] example game using the Mastermind library (using TCP)
     * [http://code.google.com/p/podsixnet/ Podsixnet game networking library]
