@@ -135,6 +135,7 @@
 
 ==Game development portals==
   * [http://www.gamedev.net/ GameDev.net]
-  * [http://www.gamasutra.com/ Gamasutra]
-  * [http://www.devmaster.net/ DevMaster]
-  * [http://aigamedev.com/ AiGameDev]
+  * [http://www.gamasutra.com/ Gamasutra.com]
+  * [http://www.devmaster.net/ DevMaster.net]
+  * [http://aigamedev.com/ AiGameDev.com]
+  * [http://www.moddb.com/ ModDB.com]
