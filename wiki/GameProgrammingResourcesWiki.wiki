@@ -1,4 +1,4 @@
-#summary Links to free resources.
+#summary Links to free Python game programming resources.
 #labels Featured
 
 = Links to free Python game programming resources =
@@ -43,29 +43,49 @@
     * [http://code.google.com/p/podsixnet/ Podsixnet game networking library]
     
 === Graphics ===
-  * Tutorials
+  * Tutorials:
     * [http://nehe.gamedev.net/ NeHe OpenGL tutorial] 
       * [http://www.pygame.org/gamelets/games/nehe1-10.zip NeHe Python code]
 
-  * 2D Libraries & engines
+  * 2D Libraries & engines:
     * [http://matthewmarshall.org/projects/rabbyt/ Rabbyt fast sprite engine]
     * [http://pyglet.org/ Pyglet multimedia library]
     * [http://www.alobbs.com/pykyra Pykyra]
 
-  * 3D Libraries & engines
+  * 3D Libraries & engines:
     * [http://pyopengl.sourceforge.net/ PyOpenGL]
-      * You may want to use [http://numpy.scipy.org/ NumPy] for matrix transformations
+      * You may want to use [http://numpy.scipy.org/ NumPy] for [http://www.ruthless.zathras.de/facts/apps/polygonesia/3d-transformation-matrix.php matrix transformations]
     * [http://www.blender.org/ Blender 3D] content creation suite
+      * [http://wiki.blender.org/index.php/Doc:Manual/Extensions/Python Blender 3D Python scripting]
+      * [http://wiki.blender.org/index.php/Extensions:Py/Scripts Blender 3D Python tutorials]
+      * [http://www.ruthless.zathras.de/facts/apps/polygonesia/blender.php Death to Usability -- or: Learn Blender in 20 Minutes Nonetheless]
     * [http://www.pygame.org/project-PYGGEL-968-.html PYGGEL]
     * [http://www.pygame.org/project-glLib+Reloaded-1326-.html glLib Reloaded]
     * [http://www.ogre3d.org/wiki/index.php/PyOgre PyOgre]
     * [http://www.crystalspace3d.org/main/Main_Page Crystalspace 3D]
+      * [http://www.crystalspace3d.org/main/PyCrystal Python bindings for CrystalSpace]
+    * [http://irrlicht.sourceforge.net/ Irrlicht]
+      * [https://opensvn.csie.org/traccgi/pyrr Pyrr Python bindings for Irrlicht]
+
+  * [http://www.vrplumber.com/py3d.py List of Python 3D Software]
 
 === Physics ===
-  * [http://code.google.com/p/pybox2d/ Pybox 2D]
-  * [http://code.google.com/p/bullet/ Bullet 3D]
   * [http://www.adrianboeing.com/pal/index.html PAL: Physics Abstraction Layer]
+
+  * Libraries:
+    * [http://code.google.com/p/pybox2d/ Pybox 2D]
+    * [http://code.google.com/p/bullet/ Bullet 3D]
 
 === Game Engines ===
   * [http://www.moddb.com/engines/ List of game engines] at Mod DB
-  * [http://code.google.com/p/flamingoengine/ Flamingo 2D game engine]
+
+  * Libraries:
+    * [http://code.google.com/p/flamingoengine/ Flamingo 2D game engine]
+    * [http://www.pysoy.org/ pysoy 3D game engine]
+
+=== GUI ===
+  * Libraries:
+    * [http://wiki.python.org/moin/TkInter Python's standard TkInter GUI]
+    * [http://www.pygame.org/project-Albow-338-853.html Albow - widgetry for PyGame & PyOpenGL]
+
+  * [http://wiki.python.org/moin/GuiProgramming List of Python GUI tools]
