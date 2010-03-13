@@ -91,11 +91,12 @@
       * [http://wiki.blender.org/index.php/Doc:Manual/Extensions/Python Blender 3D Python scripting]
       * [http://wiki.blender.org/index.php/Extensions:Py/Scripts Blender 3D Python tutorials]
       * [http://www.ruthless.zathras.de/facts/apps/polygonesia/blender.php Death to usability, or learn Blender in 20 minutes nonetheless]
-    * [http://www.ogre3d.org/wiki/index.php/PyOgre PyOgre]
+    * [http://www.ogre3d.org/ Ogre] Object-Oriented Graphics Rendering Engine
+      * [http://www.ogre3d.org/wiki/index.php/PyOgre PyOgre Python bindings for Ogre]
     * [http://www.crystalspace3d.org/main/Main_Page Crystalspace 3D]
       * [http://www.crystalspace3d.org/main/PyCrystal Python bindings for CrystalSpace]
     * [http://irrlicht.sourceforge.net/ Irrlicht]
-      * [https://opensvn.csie.org/traccgi/pyrr Pyrr Python bindings for Irrlicht] (out of date & no longer maintained)
+      * ~~[https://opensvn.csie.org/traccgi/pyrr Pyrr Python bindings for Irrlicht]~~ (out of date & no longer maintained)
     * [http://www.pysoy.org/ pysoy 3D game engine]
 
   (What I call an "engine" here is quite a mixed bag: graphics engines and game engines, the difference is not always clear. I also included Blender, since it has -among other things- a game engine.)
@@ -131,3 +132,9 @@
     * [http://www.pygame.org/project-AStar-195-.html AStar] by John Eriksson
 
   * [http://www.pygame.org/tags/ai List of AI resources] at Pygame
+
+==Game development portals==
+  * [http://www.gamedev.net/ GameDev.net]
+  * [http://www.gamasutra.com/ Gamasutra]
+  * [http://www.devmaster.net/ DevMaster]
+  * [http://aigamedev.com/ AiGameDev]
