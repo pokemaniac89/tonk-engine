@@ -1,0 +1,71 @@
+#summary Links to free resources.
+#labels Featured
+
+= Links to free Python game programming resources =
+
+===Python===
+  * [http://www.python.org/ Python website]
+  * Downloads:
+    * [http://www.python.org/download/ Download Python]
+  * Documentation:
+    * [http://www.python.org/doc/ Python documentation]
+  * Tutorials:
+    * [http://docs.python.org/tutorial/ Official Python tutorial]
+    * [http://diveintopython.org/ Dive into Python] by Mark Pilgrim
+    * [http://www.greenteapress.com/thinkpython/thinkpython.html How to Think Like a Computer Scientist] by Allen B. Downey 
+
+===Pygame===
+  * [http://www.pygame.org/ Pygame website]
+  * Downloads:
+    * [http://www.pygame.org/download.shtml Download Pygame]
+  * Documentation:
+    * [http://www.pygame.org/docs/ Pygame documentation]
+  * Tutorials:
+    * [http://www.pygame.org/wiki/tutorials Pygame tutorials]
+    * [http://www.pygame.org/wiki/CookBook Pygame cookbook]
+
+===Networking===
+  * Documentation:
+    * [http://docs.python.org/library/socket.html Socket - Low-level networking interface]
+
+  * Tutorials:
+    * [http://www.devshed.com/c/a/Python/Sockets-in-Python-Into-the-World-of-Python-Network-Programming/ Sockets in Python] by A.P.Rajshekhar
+    * [http://ilab.cs.byu.edu/python/ Python network programming] by Daniel Zappala
+    * [http://gafferongames.com/networking-for-game-programmers/ Networking for game programmers] by Glenn Fiedler
+      * [http://code.google.com/p/netgame/ tutorial C++ code]
+    * [http://www.flipcode.com/archives/Network_Game_Programming-Issue_01_Things_that_make_you_go_hmm.shtml Network game programming] by Dan Royer
+
+  * Libraries:
+    * [http://twistedmatrix.com/trac/ Twisted framework]
+      * [http://onlamp.com/pub/a/python/2006/08/10/untwisting-python-network-programming.html Untwisting Python network programming] by Kendrew Lau
+      * [http://www.ibm.com/developerworks/linux/library/l-twist1.html Network programming with the Twisted framework] by David Mertz
+    * [http://www.pygame.org/project-Mastermind+Networking+Lib-859-.html Mastermind networking lib] (TCP and UDP) by Ian Mallett
+    * [http://code.google.com/p/podsixnet/ Podsixnet game networking library]
+    
+=== Graphics ===
+  * Tutorials
+    * [http://nehe.gamedev.net/ NeHe OpenGL tutorial] 
+      * [http://www.pygame.org/gamelets/games/nehe1-10.zip NeHe Python code]
+
+  * 2D Libraries & engines
+    * [http://matthewmarshall.org/projects/rabbyt/ Rabbyt fast sprite engine]
+    * [http://pyglet.org/ Pyglet multimedia library]
+    * [http://www.alobbs.com/pykyra Pykyra]
+
+  * 3D Libraries & engines
+    * [http://pyopengl.sourceforge.net/ PyOpenGL]
+      * You may want to use [http://numpy.scipy.org/ NumPy] for matrix transformations
+    * [http://www.blender.org/ Blender 3D] content creation suite
+    * [http://www.pygame.org/project-PYGGEL-968-.html PYGGEL]
+    * [http://www.pygame.org/project-glLib+Reloaded-1326-.html glLib Reloaded]
+    * [http://www.ogre3d.org/wiki/index.php/PyOgre PyOgre]
+    * [http://www.crystalspace3d.org/main/Main_Page Crystalspace 3D]
+
+=== Physics ===
+  * [http://code.google.com/p/pybox2d/ Pybox 2D]
+  * [http://code.google.com/p/bullet/ Bullet 3D]
+  * [http://www.adrianboeing.com/pal/index.html PAL: Physics Abstraction Layer]
+
+=== Game Engines ===
+  * [http://www.moddb.com/engines/ List of game engines] at Mod DB
+  * [http://code.google.com/p/flamingoengine/ Flamingo 2D game engine]
