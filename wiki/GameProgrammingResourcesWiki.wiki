@@ -1,28 +1,37 @@
 #summary Links to free Python game programming resources.
 #labels Featured
 
-= Links to free Python game programming resources =
-
 ===Python===
   * [http://www.python.org/ Python website]
+
   * Downloads:
     * [http://www.python.org/download/ Download Python]
+
   * Documentation:
     * [http://www.python.org/doc/ Python documentation]
+
   * Tutorials:
+
     * [http://docs.python.org/tutorial/ Official Python tutorial]
     * [http://diveintopython.org/ Dive into Python] by Mark Pilgrim
     * [http://www.greenteapress.com/thinkpython/thinkpython.html How to Think Like a Computer Scientist] by Allen B. Downey 
 
+  * [http://wiki.python.org/moin/GameProgramming List of Python game programming tools]
+
 ===Pygame===
   * [http://www.pygame.org/ Pygame website]
+
   * Downloads:
     * [http://www.pygame.org/download.shtml Download Pygame]
+
   * Documentation:
     * [http://www.pygame.org/docs/ Pygame documentation]
+
   * Tutorials:
     * [http://www.pygame.org/wiki/tutorials Pygame tutorials]
     * [http://www.pygame.org/wiki/CookBook Pygame cookbook]
+    * [http://inventwithpython.com/ Invent your own computer games with Python] by Albert Sweigart
+    * [http://rene.f0o.com/mywiki/PythonGameProgramming PythonGameProgramming] by Rene Dudfield & Geoff Howland
 
 ===Networking===
   * Documentation:
@@ -51,6 +60,7 @@
   * 2D Libraries & engines:
     * [http://matthewmarshall.org/projects/rabbyt/ Rabbyt fast sprite engine]
     * [http://pyglet.org/ Pyglet multimedia library]
+      * [http://www.learningpython.com/2007/11/10/creating-a-game-with-pyglet-and-python/ Pyglet game programming tutorial]
     * [http://www.alobbs.com/pykyra Pykyra]
 
   * 3D Libraries & engines:
@@ -66,7 +76,7 @@
     * [http://www.crystalspace3d.org/main/Main_Page Crystalspace 3D]
       * [http://www.crystalspace3d.org/main/PyCrystal Python bindings for CrystalSpace]
     * [http://irrlicht.sourceforge.net/ Irrlicht]
-      * [https://opensvn.csie.org/traccgi/pyrr Pyrr Python bindings for Irrlicht]
+      * [https://opensvn.csie.org/traccgi/pyrr Pyrr Python bindings for Irrlicht] (out of date & no longer maintained)
 
   * [http://www.vrplumber.com/py3d.py List of Python 3D Software]
 
@@ -90,6 +100,7 @@
 === GUI ===
   * Libraries:
     * [http://wiki.python.org/moin/TkInter Python's standard TkInter GUI]
+      * [http://www.informit.com/articles/article.aspx?p=27103&redir=1 Tutorial: Making a CD Player with pygame and Tkinter in Python] by Harvey Deitel & Paul Deitel
     * [http://www.pygame.org/project-Albow-338-853.html Albow - widgetry for PyGame & PyOpenGL]
 
   * [http://wiki.python.org/moin/GuiProgramming List of Python GUI tools]
