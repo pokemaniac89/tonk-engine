@@ -45,13 +45,23 @@
       * [http://onlamp.com/pub/a/python/2006/08/10/untwisting-python-network-programming.html Untwisting Python network programming] by Kendrew Lau
       * [http://www.ibm.com/developerworks/linux/library/l-twist1.html Network programming with the Twisted framework] by David Mertz
     * [http://www.pygame.org/project-Mastermind+Networking+Lib-859-.html Mastermind networking lib] (TCP and UDP) by Ian Mallett
+      * [http://www.pygame.org/project-Spacewar+Multi-1025-.html Spacewar Multi] example game using the Mastermind library (using TCP)
     * [http://code.google.com/p/podsixnet/ Podsixnet game networking library]
-    * [http://opentnl.sourceforge.net/doxydocs/fundamentals.html OpenTNL] (C++)
-    * [http://www.jenkinssoftware.com/raknet/index.html RakNet] (C++)
-    * [http://enet.bespin.org/ enet] (C++)
+
+  * Protocols:
+    * [http://en.wikipedia.org/wiki/User_Datagram_Protocol UDP] User Datagram Protocol
+      * [http://enet.bespin.org/ enet] builds a protocol on top of UDP
+    * [http://twistedmatrix.com/documents/8.1.0/api/twisted.protocols.amp.html AMP] Asynchronous Messaging Protocol
+      * [http://www.ripton.net/blog/?p=16 AMP chat example code] by David Ripton
+      * [https://launchpad.net/game AMP game example code] by Christopher Armstrong & Jp Calderone
+    * Notify: protocol of [http://opentnl.sourceforge.net/doxydocs/fundamentals.html OpenTNL] & [http://github.com/nardo/tnl2 TNL2]
+    * [http://en.wikipedia.org/wiki/Transmission_Control_Protocol TCP] Transmission Control Protocol (not to be used in real-time games)
+
+  * [http://gafferongames.com/2009/01/25/game-networking-resources/ List of network resources] by Glenn Fiedler
     
 == Graphics ==
   * Documentation:
+    * [http://www.opengl.org/documentation/ OpenGL documentation]
     * [http://pyopengl.sourceforge.net/documentation/ PyOpenGL documentation]
 
   * Tutorials:
