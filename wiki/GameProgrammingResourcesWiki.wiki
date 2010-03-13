@@ -4,9 +4,6 @@
 ===Python===
   * [http://www.python.org/ Python website]
 
-  * Downloads:
-    * [http://www.python.org/download/ Download Python]
-
   * Documentation:
     * [http://www.python.org/doc/ Python documentation]
 
@@ -19,9 +16,6 @@
 
 ===Pygame===
   * [http://www.pygame.org/ Pygame website]
-
-  * Downloads:
-    * [http://www.pygame.org/download.shtml Download Pygame]
 
   * Documentation:
     * [http://www.pygame.org/docs/ Pygame documentation]
