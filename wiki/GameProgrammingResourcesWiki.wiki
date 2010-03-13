@@ -12,7 +12,7 @@
     * [http://diveintopython.org/ Dive into Python] by Mark Pilgrim
     * [http://www.greenteapress.com/thinkpython/thinkpython.html How to Think Like a Computer Scientist] by Allen B. Downey 
 
-  * [http://www.stackless.com/ Stackless Python] (used in the [http://www.eveonline.com/ EVE Online] servers, presentation [http://www.slideshare.net/Arbow/stackless-python-in-eve 2006] [http://us.pycon.org/2009/conference/schedule/event/91/ 2009])
+  * [http://www.stackless.com/ Stackless Python] (used for the [http://www.eveonline.com/ EVE Online] servers, presentation [http://www.slideshare.net/Arbow/stackless-python-in-eve 2006] [http://us.pycon.org/2009/conference/schedule/event/91/ 2009])
 
   * [http://wiki.python.org/moin/GameProgramming List of Python game programming tools]
 
@@ -48,8 +48,8 @@
       * [http://www.ibm.com/developerworks/linux/library/l-twist1.html Network programming with the Twisted framework] by David Mertz
       * [http://www.artima.com/weblogs/viewpost.jsp?thread=156396 Grokking Twisted] by Bruce Eckel
     * [http://www.pygame.org/project-Mastermind+Networking+Lib-859-.html Mastermind networking lib] (TCP and UDP) by Ian Mallett
-      * [http://www.pygame.org/project-Spacewar+Multi-1025-.html Spacewar Multi] example game using the Mastermind library (using TCP)
-    * [http://code.google.com/p/podsixnet/ Podsixnet game networking library]
+      * [http://www.pygame.org/project-Spacewar+Multi-1025-.html Spacewar Multi] example game using TCP
+    * [http://code.google.com/p/podsixnet/ Podsixnet game networking library] by Chris McCormick
 
   * Protocols:
     * [http://en.wikipedia.org/wiki/User_Datagram_Protocol UDP] User Datagram Protocol
@@ -77,14 +77,14 @@
       * You may want to use [http://numpy.scipy.org/ NumPy] for [http://www.ruthless.zathras.de/facts/apps/polygonesia/3d-transformation-matrix.php matrix transformations]
     * [http://pyglet.org/ Pyglet multimedia library]
       * [http://www.learningpython.com/2007/11/10/creating-a-game-with-pyglet-and-python/ Pyglet game programming tutorial]
-    * [http://code.google.com/p/pygl2d/ PyGL2D]
-    * [http://www.pygame.org/project-PYGGEL-968-.html PYGGEL] (Python Graphical Game Engine + Libraries)
-    * [http://www.pygame.org/project-glLib+Reloaded-1326-.html glLib Reloaded]
+    * [http://code.google.com/p/pygl2d/ PyGL2D] by PyMike
+    * [http://www.pygame.org/project-PYGGEL-968-.html PYGGEL] Python Graphical Game Engine + Libraries by RoeBros
+    * [http://www.pygame.org/project-glLib+Reloaded-1326-.html glLib Reloaded] by Ian Mallett
 
   * 2D Engines:
-    * [http://matthewmarshall.org/projects/rabbyt/ Rabbyt fast sprite engine]
-    * [http://www.alobbs.com/pykyra Pykyra]
-    * [http://code.google.com/p/flamingoengine/ Flamingo 2D game engine]
+    * [http://matthewmarshall.org/projects/rabbyt/ Rabbyt fast sprite engine] by Matthew Marshall
+    * [http://www.alobbs.com/pykyra Pykyra] fast game development framework by Alvaro Lopez Ortega
+    * [http://code.google.com/p/flamingoengine/ Flamingo] and [http://pygame.org/project-Opossum+Engine-1340-.html Opossum] 2D game engines by Bradley Zeis
 
   * 3D Engines:
     * [http://www.blender.org/ Blender 3D] content creation suite
@@ -108,16 +108,16 @@
     * [http://gafferongames.com/game-physics/ Game physics tutorial] by Glenn Fiedler
 
   * Libraries:
-    * [http://www.pygame.org/project-pyBox2D-723-.html Pybox 2D]
-    * [http://code.google.com/p/bullet/ Bullet 3D]
+    * [http://www.pygame.org/project-pyBox2D-723-.html Pybox 2D] by Ken Lauer
+    * [http://code.google.com/p/bullet/ Bullet 3D] by Erwin Coumans
 
-  * [http://www.adrianboeing.com/pal/index.html PAL: Physics Abstraction Layer]
+  * [http://www.adrianboeing.com/pal/index.html PAL: Physics Abstraction Layer] by Adrian Boeing
 
 == Graphical User Interface  ==
   * Libraries:
     * [http://wiki.python.org/moin/TkInter Python's standard TkInter GUI]
       * [http://www.informit.com/articles/article.aspx?p=27103&redir=1 Tutorial: Making a CD Player with pygame and Tkinter in Python] by Harvey Deitel & Paul Deitel
-    * [http://www.pygame.org/project-Albow-338-853.html Albow - widgetry for PyGame & PyOpenGL]
+    * [http://www.pygame.org/project-Albow-338-853.html Albow - widgetry for PyGame & PyOpenGL] by Gregory Ewing
 
   * [http://wiki.python.org/moin/GuiProgramming List of Python GUI tools]
 
@@ -126,6 +126,8 @@
     * [http://www.policyalmanac.org/games/aStarTutorial.htm A* Pathfinding for Beginners] by Patrick Lester
 
   * Libraries:
-    * [http://www.pygame.org/project-Theseus+V1.0-1426-2533.html Theseus]
-    * [http://www.pygame.org/project-Hex+stuff-773-.html Hex Stuff] 
-    * [http://www.pygame.org/project-AStar-195-.html AStar]
+    * [http://www.pygame.org/project-Theseus+V1.0-1426-2533.html Theseus] by Heiko Nolte
+    * [http://www.pygame.org/project-Hex+stuff-773-.html Hex Stuff] by Francesco Mastellone
+    * [http://www.pygame.org/project-AStar-195-.html AStar] by John Eriksson
+
+  * [http://www.pygame.org/tags/ai List of AI resources] at Pygame
