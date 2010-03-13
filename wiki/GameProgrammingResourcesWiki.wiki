@@ -46,6 +46,7 @@
   * Tutorials:
     * [http://nehe.gamedev.net/ NeHe OpenGL tutorial] 
       * [http://www.pygame.org/gamelets/games/nehe1-10.zip NeHe Python code]
+    * [http://anomtech.uuuq.com/Index.php?page=Tutorials Anomalistic Technologies OpenGL Tutorial]
 
   * 2D Libraries & engines:
     * [http://matthewmarshall.org/projects/rabbyt/ Rabbyt fast sprite engine]
@@ -70,18 +71,21 @@
   * [http://www.vrplumber.com/py3d.py List of Python 3D Software]
 
 === Physics ===
-  * [http://www.adrianboeing.com/pal/index.html PAL: Physics Abstraction Layer]
+  * Tutorial:
+    * [http://gafferongames.com/game-physics/ Game physics tutorial] by Glenn Fiedler
 
   * Libraries:
     * [http://code.google.com/p/pybox2d/ Pybox 2D]
     * [http://code.google.com/p/bullet/ Bullet 3D]
 
-=== Game Engines ===
-  * [http://www.moddb.com/engines/ List of game engines] at Mod DB
+  * [http://www.adrianboeing.com/pal/index.html PAL: Physics Abstraction Layer]
 
+=== Game Engines ===
   * Libraries:
     * [http://code.google.com/p/flamingoengine/ Flamingo 2D game engine]
     * [http://www.pysoy.org/ pysoy 3D game engine]
+
+  * [http://www.moddb.com/engines/ List of game engines] at Mod DB
 
 === GUI ===
   * Libraries:
