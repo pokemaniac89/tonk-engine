@@ -34,7 +34,7 @@
 
 ==Networking==
   * Documentation:
-    * [http://docs.python.org/library/socket.html Socket - Low-level networking interface]
+    * [http://docs.python.org/library/socket.html Socket] Low-level networking interface
 
   * Tutorials:
     * [http://www.amk.ca/python/howto/sockets/ Socket Programming HOWTO] by Gordon McMillan
@@ -43,6 +43,7 @@
     * [http://gafferongames.com/networking-for-game-programmers/ Networking for game programmers] by Glenn Fiedler
       * [http://code.google.com/p/netgame/ tutorial C++ code]
     * [http://www.flipcode.com/archives/Network_Game_Programming-Issue_01_Things_that_make_you_go_hmm.shtml Network game programming] by Dan Royer
+    * [http://www.enchantedage.com/pymmo Write your own MMORPG in four hours using Python] by jwatte
 
   * Libraries:
     * [http://twistedmatrix.com/trac/ Twisted framework]
@@ -95,11 +96,11 @@
       * [http://wiki.blender.org/index.php/Extensions:Py/Scripts Blender 3D Python tutorials]
       * [http://www.ruthless.zathras.de/facts/apps/polygonesia/blender.php Death to usability, or learn Blender in 20 minutes nonetheless]
     * [http://www.ogre3d.org/ Ogre] Object-Oriented Graphics Rendering Engine
-      * [http://www.ogre3d.org/wiki/index.php/PyOgre PyOgre Python bindings for Ogre]
+      * [http://www.ogre3d.org/wiki/index.php/PyOgre PyOgre] Python bindings for Ogre
     * [http://www.crystalspace3d.org/main/Main_Page Crystalspace 3D]
-      * [http://www.crystalspace3d.org/main/PyCrystal Python bindings for CrystalSpace]
+      * [http://www.crystalspace3d.org/main/PyCrystal PyCrystal] Python bindings for CrystalSpace
     * [http://irrlicht.sourceforge.net/ Irrlicht]
-      * ~~[https://opensvn.csie.org/traccgi/pyrr Pyrr Python bindings for Irrlicht]~~ (out of date & no longer maintained)
+      * [https://opensvn.csie.org/traccgi/pyrr Pyrr] Python bindings for Irrlicht (out of date & no longer maintained
     * [http://www.pysoy.org/ pysoy 3D game engine]
     * [http://www.panda3d.org/ Panda 3D]
     * [http://home.gna.org/oomadness/en/soya3d/index.html Soya 3D]
