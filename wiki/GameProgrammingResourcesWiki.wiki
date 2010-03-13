@@ -47,23 +47,26 @@
     * [http://code.google.com/p/podsixnet/ Podsixnet game networking library]
     
 == Graphics ==
+  * Documentation:
+    * [http://pyopengl.sourceforge.net/documentation/ PyOpenGL documentation]
+
   * Tutorials:
     * [http://nehe.gamedev.net/ NeHe OpenGL tutorial] 
       * [http://www.pygame.org/gamelets/games/nehe1-10.zip NeHe Python code]
     * [http://anomtech.uuuq.com/Index.php?page=Tutorials Anomalistic Technologies OpenGL Tutorial]
 
-  * 2D Engines:
-    * [http://matthewmarshall.org/projects/rabbyt/ Rabbyt fast sprite engine]
-    * [http://www.alobbs.com/pykyra Pykyra]
-    * [http://code.google.com/p/flamingoengine/ Flamingo 2D game engine]
-
-  * 3D Libraries:
+  * Libraries:
     * [http://pyopengl.sourceforge.net/ PyOpenGL]
       * You may want to use [http://numpy.scipy.org/ NumPy] for [http://www.ruthless.zathras.de/facts/apps/polygonesia/3d-transformation-matrix.php matrix transformations]
     * [http://pyglet.org/ Pyglet multimedia library]
       * [http://www.learningpython.com/2007/11/10/creating-a-game-with-pyglet-and-python/ Pyglet game programming tutorial]
     * [http://www.pygame.org/project-PYGGEL-968-.html PYGGEL]
     * [http://www.pygame.org/project-glLib+Reloaded-1326-.html glLib Reloaded]
+
+  * 2D Engines:
+    * [http://matthewmarshall.org/projects/rabbyt/ Rabbyt fast sprite engine]
+    * [http://www.alobbs.com/pykyra Pykyra]
+    * [http://code.google.com/p/flamingoengine/ Flamingo 2D game engine]
 
   * 3D Engines:
     * [http://www.blender.org/ Blender 3D] content creation suite
@@ -100,7 +103,7 @@
 
 == Artificial Intelligence ==
   * Tutorial:
-    * [http://www.policyalmanac.org/games/aStarTutorial.htm A* Pathfinding for Beginners]
+    * [http://www.policyalmanac.org/games/aStarTutorial.htm A* Pathfinding for Beginners] by Patrick Lester
 
   * Libraries:
     * [http://www.pygame.org/project-Theseus+V1.0-1426-2533.html Theseus]
