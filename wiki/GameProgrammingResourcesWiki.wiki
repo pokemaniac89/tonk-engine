@@ -34,12 +34,22 @@
   * Documentation:
     * [http://docs.python.org/library/socket.html Socket] Low-level networking interface
 
+  * Protocols:
+    * [http://en.wikipedia.org/wiki/User_Datagram_Protocol UDP] User Datagram Protocol
+      * [http://enet.bespin.org/ enet] and [http://www.jenkinssoftware.com/raknet/index.html RakNet] build protocols on top of UDP (C++)
+    * [http://xmpp.org/extensions/xep-0176.html XEP-0176: Jingle ICE (Interactive Connectivity Establishment) UDP Transport Method]
+    * [http://twistedmatrix.com/documents/8.1.0/api/twisted.protocols.amp.html AMP] Asynchronous Messaging Protocol
+      * [http://www.ripton.net/blog/?p=16 AMP chat example code] by David Ripton
+      * [https://launchpad.net/game AMP game example code] by Christopher Armstrong & Jp Calderone
+    * Notify: protocol of [http://opentnl.sourceforge.net/doxydocs/fundamentals.html OpenTNL] & [http://github.com/nardo/tnl2 TNL2] (Torque Network Library)
+    * [http://en.wikipedia.org/wiki/Transmission_Control_Protocol TCP] Transmission Control Protocol: In general, TCP is not advised for real-time action games. It is fine for turn-based games or for games where you don't have to aim for the opponent (such as WoW where you select a character/item and then click on the action/spell you want to use on it.)
+
   * Tutorials:
     * [http://www.devshed.com/c/a/Python/Sockets-in-Python-Into-the-World-of-Python-Network-Programming/ Sockets in Python] (UDP & TCP) by A.P.Rajshekhar
     * [http://ilab.cs.byu.edu/python/ Python network programming]  (UDP & TCP) by Daniel Zappala
-    * [http://gafferongames.com/networking-for-game-programmers/ Networking for game programmers] (UDP) by Glenn Fiedler
+    * [http://gafferongames.com/networking-for-game-programmers/ Networking for game programmers] by Glenn Fiedler: this tutorial uses C++ for its examples, but it gives a good explanation on how to build a protocol on top of UDP [http://www.gaffer.org/networking-for-game-programmers/virtual-connection-over-udp here] & [http://www.gaffer.org/networking-for-game-programmers/reliability-and-flow-control here]
       * [http://code.google.com/p/netgame/ tutorial C++ code]
-    * [http://www.flipcode.com/archives/Network_Game_Programming-Issue_01_Things_that_make_you_go_hmm.shtml Network game programming] (TCP) by Dan Royer
+    * [http://www.flipcode.com/archives/Network_Game_Programming-Issue_01_Things_that_make_you_go_hmm.shtml Network game programming] by Dan Royer: this is an old (1999) tutorial using C++ & TCP (UDP is briefly mentioned as a novelty), but it contains good information on conceptual level - [http://www.gamedev.net/community/forums/topic.asp?topic_id=509977 here]'s a follow-up discussion
     * [http://www.enchantedage.com/pymmo Write your own MMORPG in four hours using Python] (TCP) by Jon Watte
 
   * Libraries:
@@ -50,15 +60,6 @@
     * [http://www.pygame.org/project-Mastermind+Networking+Lib-859-.html Mastermind networking lib] (UDP & TCP) by Ian Mallett
       * [http://www.pygame.org/project-Spacewar+Multi-1025-.html Spacewar Multi] example game using TCP
     * [http://code.google.com/p/podsixnet/ Podsixnet game networking library] (TCP) by Chris McCormick
-
-  * Protocols:
-    * [http://en.wikipedia.org/wiki/User_Datagram_Protocol UDP] User Datagram Protocol
-      * [http://enet.bespin.org/ enet] and [http://www.jenkinssoftware.com/raknet/index.html RakNet] build protocols on top of UDP (C++)
-    * [http://twistedmatrix.com/documents/8.1.0/api/twisted.protocols.amp.html AMP] Asynchronous Messaging Protocol
-      * [http://www.ripton.net/blog/?p=16 AMP chat example code] by David Ripton
-      * [https://launchpad.net/game AMP game example code] by Christopher Armstrong & Jp Calderone
-    * Notify: protocol of [http://opentnl.sourceforge.net/doxydocs/fundamentals.html OpenTNL] & [http://github.com/nardo/tnl2 TNL2] (Torque Network Library)
-    * [http://en.wikipedia.org/wiki/Transmission_Control_Protocol TCP] Transmission Control Protocol (not advised for real-time games)
 
   * [http://gafferongames.com/2009/01/25/game-networking-resources/ List of network resources] by Glenn Fiedler
     
@@ -95,9 +96,9 @@
       * [http://www.crystalspace3d.org/main/PyCrystal PyCrystal] Python bindings for CrystalSpace
     * [http://irrlicht.sourceforge.net/ Irrlicht] by Nikolaus Gebhardt
       * [https://opensvn.csie.org/traccgi/pyrr Pyrr] Python bindings for Irrlicht (out of date & no longer maintained)
-    * [http://www.pysoy.org/ pysoy 3D game engine]
     * [http://www.panda3d.org/ Panda 3D] by Disney Imagineering & Carnegie-Mellon's Entertainment Technology Center
-    * [http://home.gna.org/oomadness/en/soya3d/index.html Soya 3D]
+    * [http://home.gna.org/oomadness/en/soya3d/index.html Soya 3D] by Jean-Baptiste Lamy
+    * [http://www.pysoy.org/ PySoy 3D] is a fork of Soya 3D
     * [http://www.pygame.org/project-PYGGEL-968-.html PYGGEL] Python Graphical Game Engine + Libraries by RoeBros
 
   * 3D content creation:
