@@ -89,6 +89,11 @@
     * [http://code.google.com/p/flamingoengine/ Flamingo] and [http://pygame.org/project-Opossum+Engine-1340-.html Opossum] 2D game engines by Bradley Zeis
     * Tonk Engine
 
+  * Isometric engines:
+    * [http://www.fifengine.de/ FIFE] Flexible Isometric Free Engine
+    * [http://www.pygame.org/project-Isomyr-1316-.html Isomyr] by Duncan McGreggor
+    * [http://www.pygame.org/project-pyTile-871-.html PyTile] by Timothy Baldock
+
   * 3D Engines:
     * [http://www.ogre3d.org/ Ogre] Object-Oriented Graphics Rendering Engine
       * [http://www.ogre3d.org/wiki/index.php/PyOgre PyOgre] Python bindings for Ogre
