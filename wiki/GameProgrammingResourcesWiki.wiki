@@ -1,8 +1,8 @@
 #summary Links to free & open source Python game programming resources.
 #labels Featured
 
-==Python==
-  * [http://www.python.org/ Python website]
+==Python== 
+  * [http://www.python.org/ Python website] by Guido van Rossum
 
   * Documentation:
     * [http://www.python.org/doc/ Python documentation]
@@ -12,14 +12,12 @@
     * [http://diveintopython.org/ Dive into Python] by Mark Pilgrim
     * [http://www.greenteapress.com/thinkpython/thinkpython.html How to Think Like a Computer Scientist] by Allen B. Downey 
 
-  * [http://www.stackless.com/ Stackless Python] (used for the [http://www.eveonline.com/ EVE Online] servers, presentation [http://www.slideshare.net/Arbow/stackless-python-in-eve 2006] [http://us.pycon.org/2009/conference/schedule/event/91/ 2009])
-
   * [http://wiki.python.org/moin/GameProgramming List of Python game programming tools]
 
   * [http://gpwiki.org/index.php/Python Python on the Game Programming Wiki]
 
-==Pygame==
-  * [http://www.pygame.org/ Pygame website]
+==Pygame== 
+  * [http://www.pygame.org/ Pygame website] (Pete Shinners' Pygame is based on Sam Lantinga's [http://www.libsdl.org/ SDL] Simple DirectMedia Layer)
 
   * Documentation:
     * [http://www.pygame.org/docs/ Pygame documentation]
@@ -65,7 +63,7 @@
 
   * [http://gafferongames.com/2009/01/25/game-networking-resources/ List of network resources] by Glenn Fiedler
     
-== Graphics ==
+==Graphics==
   * Documentation:
     * [http://www.opengl.org/documentation/ OpenGL documentation]
     * [http://pyopengl.sourceforge.net/documentation/ PyOpenGL documentation]
@@ -82,7 +80,6 @@
       * [http://www.learningpython.com/2007/11/10/creating-a-game-with-pyglet-and-python/ Pyglet game programming tutorial]
     * [http://code.google.com/p/pgu/ PGU] Phil's Pygame Utilities by Phil Hassey & Peter Rogers
     * [http://code.google.com/p/pygl2d/ PyGL2D] by PyMike
-    * [http://www.pygame.org/project-PYGGEL-968-.html PYGGEL] Python Graphical Game Engine + Libraries by RoeBros
     * [http://www.pygame.org/project-glLib+Reloaded-1326-.html glLib Reloaded] by Ian Mallett
 
   * 2D Engines:
@@ -90,11 +87,14 @@
     * [http://www.alobbs.com/pykyra Pykyra] fast game development framework by Alvaro Lopez Ortega
     * [http://code.google.com/p/flamingoengine/ Flamingo] and [http://pygame.org/project-Opossum+Engine-1340-.html Opossum] 2D game engines by Bradley Zeis
 
-  * 3D Engines:
+  * 3D content creation:
     * [http://www.blender.org/ Blender 3D] content creation suite
       * [http://wiki.blender.org/index.php/Doc:Manual/Extensions/Python Blender 3D Python scripting]
       * [http://wiki.blender.org/index.php/Extensions:Py/Scripts Blender 3D Python tutorials]
       * [http://www.ruthless.zathras.de/facts/apps/polygonesia/blender.php Death to usability, or learn Blender in 20 minutes nonetheless]
+    * 
+
+  * 3D Engines:
     * [http://www.ogre3d.org/ Ogre] Object-Oriented Graphics Rendering Engine
       * [http://www.ogre3d.org/wiki/index.php/PyOgre PyOgre] Python bindings for Ogre
     * [http://www.crystalspace3d.org/main/Main_Page Crystalspace 3D]
@@ -104,26 +104,28 @@
     * [http://www.pysoy.org/ pysoy 3D game engine]
     * [http://www.panda3d.org/ Panda 3D]
     * [http://home.gna.org/oomadness/en/soya3d/index.html Soya 3D]
+    * [http://www.pygame.org/project-PYGGEL-968-.html PYGGEL] Python Graphical Game Engine + Libraries by RoeBros
 
-  (What I call an "engine" here is quite a mixed bag: graphics engines and game engines, the difference is not always clear. I also included Blender, since it has -among many other things- a game engine.)
+  What I call an "engine" here is quite a mixed bag: the distinction betwixt "graphics library", "graphics engine" and "game engine" is not always clear.
 
   * [http://www.vrplumber.com/py3d.py List of Python 3D Software]
   * [http://www.moddb.com/engines/ List of game engines] at Mod DB
   * [http://gpwiki.org/index.php/Game_Engines List of game engines] at Game Programming Wiki
 
-== Physics ==
+==Physics==
   * Tutorial:
     * [http://gafferongames.com/game-physics/ Game physics tutorial] by Glenn Fiedler
 
   * Libraries:
-    * [http://www.pygame.org/project-pyBox2D-723-.html Pybox 2D] by Ken Lauer
+    * [http://www.box2d.org/ Box2D]
+      * [http://www.pygame.org/project-pyBox2D-723-.html Pybox2D] Python bindings for Box2D by Ken Lauer
     * [http://www.ode.org/ ODE] Open Dynamics Engine 3D
       * [http://pyode.sourceforge.net/ Pyode] Python bindings for ODE
-    * [http://code.google.com/p/bullet/ Bullet 3D] by Erwin Coumans
+    * [http://bulletphysics.org/wordpress/ Bullet 3D] is being used by Blender. [http://code.google.com/p/bullet/ code] by Erwin Coumans
 
   * [http://www.adrianboeing.com/pal/index.html PAL: Physics Abstraction Layer] by Adrian Boeing
 
-== Graphical User Interface  ==
+==Graphical User Interface==
   * Libraries:
     * [http://wiki.python.org/moin/TkInter Python's standard TkInter GUI]
       * [http://www.informit.com/articles/article.aspx?p=27103&redir=1 Tutorial: Making a CD Player with pygame and Tkinter in Python] by Harvey Deitel & Paul Deitel
@@ -131,7 +133,7 @@
 
   * [http://wiki.python.org/moin/GuiProgramming List of Python GUI tools]
 
-== Artificial Intelligence ==
+==Artificial Intelligence==
   * Tutorial:
     * [http://www.policyalmanac.org/games/aStarTutorial.htm A* Pathfinding for Beginners] by Patrick Lester
 
@@ -141,6 +143,20 @@
     * [http://www.pygame.org/project-AStar-195-.html AStar] by John Eriksson
 
   * [http://www.pygame.org/tags/ai List of AI resources] at Pygame
+
+===Concurrency===
+
+  * Documentation:
+    * [http://docs.python.org/library/threading.html threading] Higher-level threading interface
+
+  * Tutoral:
+    * [http://www.devshed.com/c/a/Python/Basic-Threading-in-Python/ Basic Threading in Python] by Peyton McCullough
+
+  * [http://www.stackless.com/ Stackless Python] will replace your Python executable. It implements microthreads and channels
+    * Stackless is being used for the [http://www.eveonline.com/ EVE Online] servers, presentations: [http://www.slideshare.net/Arbow/stackless-python-in-eve 2006], [http://us.pycon.org/2009/conference/schedule/event/91/ 2009]
+
+  * [http://code.google.com/p/python-csp/ Python-CSP] implements [http://en.wikipedia.org/wiki/Communicating_sequential_processes Communicating Sequential Processes] on top of Python
+
 
 ==Game development portals==
   * [http://www.gamedev.net/ GameDev.net]
