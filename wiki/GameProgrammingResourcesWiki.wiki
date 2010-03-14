@@ -17,7 +17,7 @@
   * [http://gpwiki.org/index.php/Python Python on the Game Programming Wiki]
 
 ==Pygame== 
-  * [http://www.pygame.org/ Pygame] by Pete Shinners (Pygame is based on Sam Lantinga's [http://www.libsdl.org/ SDL] Simple DirectMedia Layer)
+  * [http://www.pygame.org/ Pygame] by Pete Shinners (Pygame is based on Sam Lantinga's [http://www.libsdl.org/ SDL] - Simple DirectMedia Layer)
 
   * Documentation:
     * [http://www.pygame.org/docs/ Pygame documentation]
@@ -50,15 +50,15 @@
       * [http://www.artima.com/weblogs/viewpost.jsp?thread=156396 Grokking Twisted] by Bruce Eckel
     * [http://www.pygame.org/project-Mastermind+Networking+Lib-859-.html Mastermind networking lib] (UDP & TCP) by Ian Mallett
       * [http://www.pygame.org/project-Spacewar+Multi-1025-.html Spacewar Multi] example game using TCP
-    * [http://code.google.com/p/podsixnet/ Podsixnet game networking library] by Chris McCormick
+    * [http://code.google.com/p/podsixnet/ Podsixnet game networking library] (TCP) by Chris McCormick
 
   * Protocols:
     * [http://en.wikipedia.org/wiki/User_Datagram_Protocol UDP] User Datagram Protocol
-      * [http://enet.bespin.org/ enet] builds a protocol on top of UDP
+      * [http://enet.bespin.org/ enet] and [http://www.jenkinssoftware.com/raknet/index.html RakNet] build protocols on top of UDP (C++)
     * [http://twistedmatrix.com/documents/8.1.0/api/twisted.protocols.amp.html AMP] Asynchronous Messaging Protocol
       * [http://www.ripton.net/blog/?p=16 AMP chat example code] by David Ripton
       * [https://launchpad.net/game AMP game example code] by Christopher Armstrong & Jp Calderone
-    * Notify: protocol of [http://opentnl.sourceforge.net/doxydocs/fundamentals.html OpenTNL] & [http://github.com/nardo/tnl2 TNL2]
+    * Notify: protocol of [http://opentnl.sourceforge.net/doxydocs/fundamentals.html OpenTNL] & [http://github.com/nardo/tnl2 TNL2] (Torque Network Library)
     * [http://en.wikipedia.org/wiki/Transmission_Control_Protocol TCP] Transmission Control Protocol (not to be used in real-time games)
 
   * [http://gafferongames.com/2009/01/25/game-networking-resources/ List of network resources] by Glenn Fiedler
@@ -89,12 +89,6 @@
     * [http://code.google.com/p/flamingoengine/ Flamingo] and [http://pygame.org/project-Opossum+Engine-1340-.html Opossum] 2D game engines by Bradley Zeis
     * Tonk Engine
 
-  * 3D content creation:
-    * [http://www.blender.org/ Blender 3D] content creation suite
-      * [http://wiki.blender.org/index.php/Doc:Manual/Extensions/Python Blender 3D Python scripting]
-      * [http://wiki.blender.org/index.php/Extensions:Py/Scripts Blender 3D Python tutorials]
-      * [http://www.ruthless.zathras.de/facts/apps/polygonesia/blender.php Death to usability, or learn Blender in 20 minutes nonetheless]
-
   * 3D Engines:
     * [http://www.ogre3d.org/ Ogre] Object-Oriented Graphics Rendering Engine
       * [http://www.ogre3d.org/wiki/index.php/PyOgre PyOgre] Python bindings for Ogre
@@ -107,7 +101,11 @@
     * [http://home.gna.org/oomadness/en/soya3d/index.html Soya 3D]
     * [http://www.pygame.org/project-PYGGEL-968-.html PYGGEL] Python Graphical Game Engine + Libraries by RoeBros
 
-  What I call an "engine" here is quite a mixed bag: the distinction betwixt "graphics library", "graphics engine" and "game engine" is not always clear.
+  * 3D content creation:
+    * [http://www.blender.org/ Blender 3D] content creation suite
+      * [http://wiki.blender.org/index.php/Doc:Manual/Extensions/Python Blender 3D Python scripting]
+      * [http://wiki.blender.org/index.php/Extensions:Py/Scripts Blender 3D Python tutorials]
+      * [http://www.ruthless.zathras.de/facts/apps/polygonesia/blender.php Death to usability, or learn Blender in 20 minutes nonetheless]
 
   * [http://www.vrplumber.com/py3d.py List of Python 3D Software]
   * [http://www.moddb.com/engines/ List of game engines] at Mod DB
@@ -136,7 +134,7 @@
     * [http://www.pygame.org/project-pqGUI-1026-.html pqGUI] by Poiuy Qwert
 
   * [http://wiki.python.org/moin/GuiProgramming List of Python GUI tools]
-  * [http://www.pygame.org/tags/gui List of Pygame GUI libraries]
+  * [http://www.pygame.org/tags/gui List of Pygame GUI tools]
 
 ==Artificial Intelligence==
   * Tutorial:
@@ -163,12 +161,12 @@
   * [http://code.google.com/p/python-csp/ Python-CSP] implements [http://en.wikipedia.org/wiki/Communicating_sequential_processes Communicating Sequential Processes] on top of Python
 
 ==Compatibility==
-  * [http://www.swig.org/ SWIG] Simplified Wrapper and Interface Generator is an open source software tool used to connect programs or libraries written in C/C++ with scripting languages such as Python.
-  * [http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/ Pyrex] lets you write code that mixes Python and C data types any way you want, and compiles it into a C extension for Python
+  * [http://www.swig.org/ SWIG] (Simplified Wrapper and Interface Generator) is an open source software tool used to connect programs or libraries written in C/C++ with scripting languages such as Python.
+  * [http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/ Pyrex] lets you write code that mixes Python and C data types, and compiles it into a C extension for Python
   * [http://cython.org/ Cython] is a derivative of Pyrex
-  * [http://pyinline.sourceforge.net/ PyInline] allows you to put source code from other programming languages directly "inline" in a Python script or module.
-  * [http://www.jython.org/ Jython] is an implementation of the Python programming language written in Java.
-  * [http://ironpython.net/ IronPython] is an implementation of the Python programming language targeting the .NET Framework and Mono, by Jim Hugunin
+  * [http://pyinline.sourceforge.net/ PyInline] allows you to put source code from other programming languages directly "inline" in a Python script or module
+  * [http://www.jython.org/ Jython] is an implementation of Python written in Java
+  * [http://ironpython.net/ IronPython] is an implementation of Python targeting the .NET Framework & Mono, by Jim Hugunin
   * [http://www.py2exe.org/ py2exe] is a Python Distutils  extension which converts Python scripts into executable Windows programs
   * [http://code.google.com/p/pyplugin/ PyPlugin] is a simple plugin framework for Python
   
