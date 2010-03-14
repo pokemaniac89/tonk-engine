@@ -35,13 +35,12 @@
     * [http://docs.python.org/library/socket.html Socket] Low-level networking interface
 
   * Tutorials:
-    * [http://www.amk.ca/python/howto/sockets/ Socket Programming HOWTO] by Gordon McMillan
-    * [http://www.devshed.com/c/a/Python/Sockets-in-Python-Into-the-World-of-Python-Network-Programming/ Sockets in Python] by A.P.Rajshekhar
-    * [http://ilab.cs.byu.edu/python/ Python network programming] by Daniel Zappala
-    * [http://gafferongames.com/networking-for-game-programmers/ Networking for game programmers] by Glenn Fiedler
+    * [http://www.devshed.com/c/a/Python/Sockets-in-Python-Into-the-World-of-Python-Network-Programming/ Sockets in Python] (UDP & TCP) by A.P.Rajshekhar
+    * [http://ilab.cs.byu.edu/python/ Python network programming]  (UDP & TCP) by Daniel Zappala
+    * [http://gafferongames.com/networking-for-game-programmers/ Networking for game programmers] (UDP) by Glenn Fiedler
       * [http://code.google.com/p/netgame/ tutorial C++ code]
-    * [http://www.flipcode.com/archives/Network_Game_Programming-Issue_01_Things_that_make_you_go_hmm.shtml Network game programming] by Dan Royer
-    * [http://www.enchantedage.com/pymmo Write your own MMORPG in four hours using Python] by jwatte
+    * [http://www.flipcode.com/archives/Network_Game_Programming-Issue_01_Things_that_make_you_go_hmm.shtml Network game programming] (TCP) by Dan Royer
+    * [http://www.enchantedage.com/pymmo Write your own MMORPG in four hours using Python] (TCP) by Jon Watte
 
   * Libraries:
     * [http://twistedmatrix.com/trac/ Twisted framework] (UDP, AMP, TCP...)
@@ -59,7 +58,7 @@
       * [http://www.ripton.net/blog/?p=16 AMP chat example code] by David Ripton
       * [https://launchpad.net/game AMP game example code] by Christopher Armstrong & Jp Calderone
     * Notify: protocol of [http://opentnl.sourceforge.net/doxydocs/fundamentals.html OpenTNL] & [http://github.com/nardo/tnl2 TNL2] (Torque Network Library)
-    * [http://en.wikipedia.org/wiki/Transmission_Control_Protocol TCP] Transmission Control Protocol (not to be used in real-time games)
+    * [http://en.wikipedia.org/wiki/Transmission_Control_Protocol TCP] Transmission Control Protocol (not advised for real-time games)
 
   * [http://gafferongames.com/2009/01/25/game-networking-resources/ List of network resources] by Glenn Fiedler
     
