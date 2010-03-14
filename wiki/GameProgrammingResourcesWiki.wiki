@@ -76,7 +76,7 @@
   * Libraries:
     * [http://pyopengl.sourceforge.net/ PyOpenGL]
       * You may want to use [http://numpy.scipy.org/ NumPy] for [http://www.ruthless.zathras.de/facts/apps/polygonesia/3d-transformation-matrix.php matrix transformations]
-    * [http://pyglet.org/ Pyglet multimedia library], the funtionality of Pyglet largely overlaps with Pygame, but Pyglet is written in pure Python (and does not rely on the SDL as Pygame does.)
+    * [http://pyglet.org/ Pyglet multimedia library], the funtionality of Pyglet largely overlaps with Pygame's funtionality, but Pyglet is written in pure Python and does not rely on the SDL as Pygame does.
       * [http://www.learningpython.com/2007/11/10/creating-a-game-with-pyglet-and-python/ Pyglet game programming tutorial]
     * [http://code.google.com/p/pgu/ PGU] Phil's pyGame Utilities by Phil Hassey & Peter Rogers
     * [http://code.google.com/p/pygl2d/ PyGL2D] by PyMike
@@ -84,8 +84,10 @@
 
   * 2D Engines:
     * [http://matthewmarshall.org/projects/rabbyt/ Rabbyt fast sprite engine] by Matthew Marshall
-    * [http://www.alobbs.com/pykyra Pykyra] fast game development framework by Alvaro Lopez Ortega
+    * [http://www.grinninglizard.com/kyra/ Kyra] sprite engine, based on the SDL
+      * [http://www.alobbs.com/pykyra Pykyra] Python bindings for Kyra by Alvaro Lopez Ortega
     * [http://code.google.com/p/flamingoengine/ Flamingo] and [http://pygame.org/project-Opossum+Engine-1340-.html Opossum] 2D game engines by Bradley Zeis
+    * Tonk Engine
 
   * 3D content creation:
     * [http://www.blender.org/ Blender 3D] content creation suite
@@ -98,7 +100,7 @@
       * [http://www.ogre3d.org/wiki/index.php/PyOgre PyOgre] Python bindings for Ogre
     * [http://www.crystalspace3d.org/main/Main_Page Crystalspace 3D]
       * [http://www.crystalspace3d.org/main/PyCrystal PyCrystal] Python bindings for CrystalSpace
-    * [http://irrlicht.sourceforge.net/ Irrlicht]
+    * [http://irrlicht.sourceforge.net/ Irrlicht] by Nikolaus Gebhardt
       * [https://opensvn.csie.org/traccgi/pyrr Pyrr] Python bindings for Irrlicht (out of date & no longer maintained)
     * [http://www.pysoy.org/ pysoy 3D game engine]
     * [http://www.panda3d.org/ Panda 3D] by Disney Imagineering & Carnegie-Mellon's Entertainment Technology Center
@@ -151,11 +153,21 @@
   * Tutoral:
     * [http://www.devshed.com/c/a/Python/Basic-Threading-in-Python/ Basic Threading in Python] by Peyton McCullough
 
-  * [http://www.stackless.com/ Stackless Python] will replace your Python executable. It implements microthreads and channels
+  * [http://www.stackless.com/ Stackless Python] will *replace* the normal Python executable. It implements microthreads and channels
     * Stackless is being used for the [http://www.eveonline.com/ EVE Online] servers, presentations: [http://www.slideshare.net/Arbow/stackless-python-in-eve 2006], [http://us.pycon.org/2009/conference/schedule/event/91/ 2009]
 
   * [http://code.google.com/p/python-csp/ Python-CSP] implements [http://en.wikipedia.org/wiki/Communicating_sequential_processes Communicating Sequential Processes] on top of Python
 
+==Compatibility==
+  * [http://www.swig.org/ SWIG] Simplified Wrapper and Interface Generator is an open source software tool used to connect programs or libraries written in C/C++ with scripting languages such as Python.
+  * [http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/ Pyrex] lets you write code that mixes Python and C data types any way you want, and compiles it into a C extension for Python
+  * [http://cython.org/ Cython] is a derivative of Pyrex
+  * [http://pyinline.sourceforge.net/ PyInline] allows you to put source code from other programming languages directly "inline" in a Python script or module.
+  * [http://www.jython.org/ Jython] is an implementation of the Python programming language written in Java.
+  * [http://ironpython.net/ IronPython] is an implementation of the Python programming language targeting the .NET Framework and Mono, by Jim Hugunin
+  * [http://www.py2exe.org/ py2exe] is a Python Distutils  extension which converts Python scripts into executable Windows programs
+  * [http://code.google.com/p/pyplugin/ PyPlugin] is a simple plugin framework for Python
+  
 
 ==Game development portals==
   * [http://www.gamedev.net/ GameDev.net]
