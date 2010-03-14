@@ -131,8 +131,12 @@
     * [http://wiki.python.org/moin/TkInter Python's standard TkInter GUI]
       * [http://www.informit.com/articles/article.aspx?p=27103&redir=1 Tutorial: Making a CD Player with pygame and Tkinter in Python] by Harvey Deitel & Paul Deitel
     * [http://www.pygame.org/project-Albow-338-853.html Albow] widgetry for PyGame & PyOpenGL by Gregory Ewing
+    * [http://www.pygame.org/project-simple+game+gui-740-.html Simple Game GUI] by Canio Massimo Tristano
+    * [http://www.pygame.org/project-RoeBros%27+GUI-656-.html Roebros' GUI]
+    * [http://www.pygame.org/project-pqGUI-1026-.html pqGUI] by Poiuy Qwert
 
   * [http://wiki.python.org/moin/GuiProgramming List of Python GUI tools]
+  * [http://www.pygame.org/tags/gui List of Pygame GUI libraries]
 
 ==Artificial Intelligence==
   * Tutorial:
