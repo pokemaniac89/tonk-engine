@@ -49,7 +49,7 @@
     * [http://ilab.cs.byu.edu/python/ Python network programming]  (UDP & TCP) by Daniel Zappala
     * [http://gafferongames.com/networking-for-game-programmers/ Networking for game programmers] by Glenn Fiedler: this tutorial uses C++ for its examples, but it gives a good explanation on how to build a protocol on top of UDP [http://www.gaffer.org/networking-for-game-programmers/virtual-connection-over-udp here] & [http://www.gaffer.org/networking-for-game-programmers/reliability-and-flow-control here]
       * [http://code.google.com/p/netgame/ tutorial C++ code]
-    * [http://www.flipcode.com/archives/Network_Game_Programming-Issue_01_Things_that_make_you_go_hmm.shtml Network game programming] by Dan Royer: this is an old (1999) tutorial using C++ & TCP (UDP is briefly mentioned as a novelty. [http://www.gamedev.net/community/forums/topic.asp?topic_id=509977 Here]'s a follow-up discussion
+    * [http://www.flipcode.com/archives/Network_Game_Programming-Issue_01_Things_that_make_you_go_hmm.shtml Network game programming] by Dan Royer: this is an old (1999) tutorial using C++ & TCP; UDP is briefly mentioned as a novelty. [http://www.gamedev.net/community/forums/topic.asp?topic_id=509977 Here]'s a follow-up discussion
     * [http://www.enchantedage.com/pymmo Write your own MMORPG in four hours using Python] (TCP) by Jon Watte
 
   * Libraries:
@@ -119,7 +119,7 @@
 
 ==Physics==
   * Tutorial:
-    * [http://gafferongames.com/game-physics/ Game physics tutorial] by Glenn Fiedler
+    * [http://gafferongames.com/game-physics/ Game physics tutorial] (C++) by Glenn Fiedler
 
   * Libraries:
     * [http://www.box2d.org/ Box2D]
@@ -162,10 +162,11 @@
   * Tutoral:
     * [http://www.devshed.com/c/a/Python/Basic-Threading-in-Python/ Basic Threading in Python] by Peyton McCullough
 
-  * [http://www.stackless.com/ Stackless Python], by Christian Tismer, *replaces* the Python executable (usually [http://en.wikipedia.org/wiki/CPython CPython] - the features of Stackless have also been implemented in [http://pypy.org/ PyPy]). Stackless implements microthreads, co-routines, channels and serialization.
+  * [http://www.stackless.com/ Stackless Python], by Christian Tismer, *replaces* the Python executable (usually [http://en.wikipedia.org/wiki/CPython CPython]). Stackless implements microthreads, co-routines, channels and serialization.
     * Stackless is being used for the [http://www.eveonline.com/ EVE Online] servers, presentations: [http://www.slideshare.net/Arbow/stackless-python-in-eve 2006], [http://us.pycon.org/2009/conference/schedule/event/91/ 2009]
-
   * [http://pypi.python.org/pypi/greenlet Greenlet] is a spin-off of Stackless, a version of CPython that supports micro-threads called "tasklets"
+    * Greenlet is being used for the Second Life servers
+  * [http://pypy.org/ PyPy] is a CPython replacement, written in Python. It implements a [http://en.wikipedia.org/wiki/Just-in-time_compilation JIT] compiler and also the features of Stackless.
 
   * [http://code.google.com/p/python-csp/ Python-CSP] implements [http://en.wikipedia.org/wiki/Communicating_sequential_processes Communicating Sequential Processes] on top of Python
 
