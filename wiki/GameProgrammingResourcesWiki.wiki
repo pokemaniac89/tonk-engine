@@ -49,7 +49,7 @@
     * [http://ilab.cs.byu.edu/python/ Python network programming]  (UDP & TCP) by Daniel Zappala
     * [http://gafferongames.com/networking-for-game-programmers/ Networking for game programmers] by Glenn Fiedler: this tutorial uses C++ for its examples, but it gives a good explanation on how to build a protocol on top of UDP [http://www.gaffer.org/networking-for-game-programmers/virtual-connection-over-udp here] & [http://www.gaffer.org/networking-for-game-programmers/reliability-and-flow-control here]
       * [http://code.google.com/p/netgame/ tutorial C++ code]
-    * [http://www.flipcode.com/archives/Network_Game_Programming-Issue_01_Things_that_make_you_go_hmm.shtml Network game programming] by Dan Royer: this is an old (1999) tutorial using C++ & TCP (UDP is briefly mentioned as a novelty), but it contains good information on conceptual level - [http://www.gamedev.net/community/forums/topic.asp?topic_id=509977 here]'s a follow-up discussion
+    * [http://www.flipcode.com/archives/Network_Game_Programming-Issue_01_Things_that_make_you_go_hmm.shtml Network game programming] by Dan Royer: this is an old (1999) tutorial using C++ & TCP (UDP is briefly mentioned as a novelty. [http://www.gamedev.net/community/forums/topic.asp?topic_id=509977 Here]'s a follow-up discussion
     * [http://www.enchantedage.com/pymmo Write your own MMORPG in four hours using Python] (TCP) by Jon Watte
 
   * Libraries:
@@ -60,6 +60,7 @@
     * [http://www.pygame.org/project-Mastermind+Networking+Lib-859-.html Mastermind networking lib] (UDP & TCP) by Ian Mallett
       * [http://www.pygame.org/project-Spacewar+Multi-1025-.html Spacewar Multi] example game using TCP
     * [http://code.google.com/p/podsixnet/ Podsixnet game networking library] (TCP) by Chris McCormick
+    * [http://wiki.secondlife.com/w/index.php?title=Eventlet&oldid=51543 Eventlet] is a HTTP networking library written in Python by Bob Ippolito, used in Second Life
 
   * [http://gafferongames.com/2009/01/25/game-networking-resources/ List of network resources] by Glenn Fiedler
     
@@ -82,19 +83,19 @@
     * [http://code.google.com/p/pygl2d/ PyGL2D] by PyMike
     * [http://www.pygame.org/project-glLib+Reloaded-1326-.html glLib Reloaded] by Ian Mallett
 
-  * 2D Engines:
+  * 2D engines:
     * [http://matthewmarshall.org/projects/rabbyt/ Rabbyt fast sprite engine] by Matthew Marshall
     * [http://www.grinninglizard.com/kyra/ Kyra] sprite engine, based on the SDL
       * [http://www.alobbs.com/pykyra Pykyra] Python bindings for Kyra by Alvaro Lopez Ortega
     * [http://code.google.com/p/flamingoengine/ Flamingo] and [http://pygame.org/project-Opossum+Engine-1340-.html Opossum] 2D game engines by Bradley Zeis
     * Tonk Engine
 
-  * Isometric engines:
+  * 2.5D isometric engines:
     * [http://www.fifengine.de/ FIFE] Flexible Isometric Free Engine
     * [http://www.pygame.org/project-Isomyr-1316-.html Isomyr] by Duncan McGreggor
     * [http://www.pygame.org/project-pyTile-871-.html PyTile] by Timothy Baldock
 
-  * 3D Engines:
+  * 3D engines:
     * [http://www.ogre3d.org/ Ogre] Object-Oriented Graphics Rendering Engine
       * [http://www.ogre3d.org/wiki/index.php/PyOgre PyOgre] Python bindings for Ogre
     * [http://www.crystalspace3d.org/main/Main_Page Crystalspace 3D]
@@ -142,8 +143,9 @@
   * [http://www.pygame.org/tags/gui List of Pygame GUI tools]
 
 ==Artificial Intelligence==
-  * Tutorial:
+  * Tutorials:
     * [http://www.policyalmanac.org/games/aStarTutorial.htm A* Pathfinding for Beginners] by Patrick Lester
+    * [http://www.pxleyes.com/ext-tutorial/blender/10926/Game-Engine-AI-Part-1--Simple-Path.html Pathfinding in Blender 3D] by Giulia
 
   * Libraries:
     * [http://www.pygame.org/project-Theseus+V1.0-1426-2533.html Theseus] by Heiko Nolte
@@ -160,16 +162,18 @@
   * Tutoral:
     * [http://www.devshed.com/c/a/Python/Basic-Threading-in-Python/ Basic Threading in Python] by Peyton McCullough
 
-  * [http://www.stackless.com/ Stackless Python] will *replace* the normal Python executable. It implements microthreads and channels
+  * [http://www.stackless.com/ Stackless Python], by Christian Tismer, *replaces* the Python executable (usually [http://en.wikipedia.org/wiki/CPython CPython] - the features of Stackless have also been implemented in [http://pypy.org/ PyPy]). Stackless implements microthreads, co-routines, channels and serialization.
     * Stackless is being used for the [http://www.eveonline.com/ EVE Online] servers, presentations: [http://www.slideshare.net/Arbow/stackless-python-in-eve 2006], [http://us.pycon.org/2009/conference/schedule/event/91/ 2009]
+
+  * [http://pypi.python.org/pypi/greenlet Greenlet] is a spin-off of Stackless, a version of CPython that supports micro-threads called "tasklets"
 
   * [http://code.google.com/p/python-csp/ Python-CSP] implements [http://en.wikipedia.org/wiki/Communicating_sequential_processes Communicating Sequential Processes] on top of Python
 
 ==Compatibility==
-  * [http://www.swig.org/ SWIG] (Simplified Wrapper and Interface Generator) is an open source software tool used to connect programs or libraries written in C/C++ with scripting languages such as Python.
+  * [http://www.swig.org/ SWIG] (Simplified Wrapper and Interface Generator) is used to connect programs or libraries written in C/C++ with scripting languages such as Python.
   * [http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/ Pyrex] lets you write code that mixes Python and C data types, and compiles it into a C extension for Python
   * [http://cython.org/ Cython] is a derivative of Pyrex
-  * [http://pyinline.sourceforge.net/ PyInline] allows you to put source code from other programming languages directly "inline" in a Python script or module
+  * [http://pyinline.sourceforge.net/ PyInline] allows you to put source code from other programming languages directly "inline" in Python
   * [http://www.jython.org/ Jython] is an implementation of Python written in Java
   * [http://ironpython.net/ IronPython] is an implementation of Python targeting the .NET Framework & Mono, by Jim Hugunin
   * [http://www.py2exe.org/ py2exe] is a Python Distutils  extension which converts Python scripts into executable Windows programs
