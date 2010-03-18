@@ -37,12 +37,16 @@
 
   * Protocols:
     * [http://en.wikipedia.org/wiki/User_Datagram_Protocol UDP] ("socket.SOCK_DGRAM") User Datagram Protocol
-      * [http://enet.bespin.org/ enet] and [http://www.jenkinssoftware.com/raknet/index.html RakNet] build protocols on top of UDP (C++)
-    * [http://xmpp.org/extensions/xep-0176.html XEP-0176: Jingle ICE] Interactive Connectivity Establishment UDP Transport Method, used by PySoy
+      * [http://xmpp.org/extensions/xep-0176.html Jingle ICE-UDP] Interactive Connectivity Establishment UDP Transport Method
+        * PySoy uses ICE-UDP
+      * [http://udt.sourceforge.net/index.html UDT] UDP-based Data Transfer 
+        * [http://www.jenkinssoftware.com/raknet/index.html RakNet] (C++) uses UDT
+      * [http://enet.bespin.org/ enet] builds a protocols on top of UDP (C++)
     * [http://twistedmatrix.com/documents/8.1.0/api/twisted.protocols.amp.html AMP] Asynchronous Messaging Protocol
       * [http://www.ripton.net/blog/?p=16 AMP chat example code] by David Ripton
       * [https://launchpad.net/game AMP game example code] by Christopher Armstrong & Jp Calderone
-    * Notify: protocol of [http://opentnl.sourceforge.net/doxydocs/fundamentals.html OpenTNL] & [http://github.com/nardo/tnl2 TNL2] (Torque Network Library, C++)
+    * Notify: Torque Network Library protocol
+      * [http://opentnl.sourceforge.net/doxydocs/fundamentals.html OpenTNL] & [http://github.com/nardo/tnl2 TNL2] (C++)
     * [http://en.wikipedia.org/wiki/Transmission_Control_Protocol TCP] ("socket.SOCK_STREAM") Transmission Control Protocol: In general, TCP is not advised for real-time action games. It is fine for turn-based games or for games where you don't have to aim for the opponent (such as WoW where you select a character/item and then click on the action/spell you want to use on it.)
 
   * Tutorials:
@@ -68,7 +72,7 @@
     
 ==Physics==
   * Tutorial:
-    * [http://gafferongames.com/game-physics/ Game physics tutorial] by Glenn Fiedler is a good introduction to the concepts and algorithms of game physics in C++
+    * [http://gafferongames.com/game-physics/ Game physics tutorial] by Glenn Fiedler is a good introduction (examples in C++) to the concepts and algorithms of game physics 
 
   * Libraries:
     * [http://www.box2d.org/ Box2D]
