@@ -43,7 +43,8 @@
         * [http://www.jenkinssoftware.com/raknet/index.html RakNet] (C++) uses UDT
       * [http://opentnl.sourceforge.net/doxydocs/structTNL_1_1NetConnection_1_1PacketNotify.html Notify]: Torque Network Library protocol
         * implementations (C++): [http://opentnl.sourceforge.net/doxydocs/fundamentals.html OpenTNL] & [http://github.com/nardo/tnl2 TNL2] 
-      * [http://enet.bespin.org/ enet]: is another network gaming protocol on top of UDP ([http://linux.softpedia.com/get/Programming/Libraries/ENet-5659.shtml C++])
+      * [http://enet.bespin.org/ enet]: another network gaming protocol on top of UDP (C++)
+      * TonkTalk will be my own attempt at an UDP-based gaming protocol implemented in Python
     * [http://twistedmatrix.com/documents/8.1.0/api/twisted.protocols.amp.html AMP]: Asynchronous Messaging Protocol
       * [http://www.ripton.net/blog/?p=16 AMP chat example code] by David Ripton
       * [https://launchpad.net/game AMP game example code] by Christopher Armstrong & Jp Calderone
