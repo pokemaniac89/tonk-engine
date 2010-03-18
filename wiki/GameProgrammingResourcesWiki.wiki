@@ -36,18 +36,19 @@
     * [http://docs.python.org/library/socketserver.html SocketServer] framework for network servers
 
   * Protocols:
-    * [http://en.wikipedia.org/wiki/User_Datagram_Protocol UDP] ("socket.SOCK_DGRAM") User Datagram Protocol
-      * [http://xmpp.org/extensions/xep-0176.html Jingle ICE-UDP] Interactive Connectivity Establishment UDP Transport Method
-        * PySoy uses ICE-UDP
-      * [http://udt.sourceforge.net/index.html UDT] UDP-based Data Transfer 
+    * [http://en.wikipedia.org/wiki/User_Datagram_Protocol UDP]: User Datagram Protocol ("socket.SOCK_DGRAM")
+      * [http://xmpp.org/extensions/xep-0176.html ICE-UDP]: Interactive Connectivity Establishment UDP Transport Method by Yunhong Gu
+        * The PySoy 3D engine uses ICE-UDP
+      * [http://udt.sourceforge.net/index.html UDT]: UDP-based Data Transfer 
         * [http://www.jenkinssoftware.com/raknet/index.html RakNet] (C++) uses UDT
-      * [http://enet.bespin.org/ enet] builds a protocols on top of UDP (C++)
-    * [http://twistedmatrix.com/documents/8.1.0/api/twisted.protocols.amp.html AMP] Asynchronous Messaging Protocol
+      * [http://opentnl.sourceforge.net/doxydocs/structTNL_1_1NetConnection_1_1PacketNotify.html Notify]: Torque Network Library protocol
+        * implementations (C++): [http://opentnl.sourceforge.net/doxydocs/fundamentals.html OpenTNL] & [http://github.com/nardo/tnl2 TNL2] 
+      * [http://enet.bespin.org/ enet]: is another network gaming protocol on top of UDP ([http://linux.softpedia.com/get/Programming/Libraries/ENet-5659.shtml C++])
+    * [http://twistedmatrix.com/documents/8.1.0/api/twisted.protocols.amp.html AMP]: Asynchronous Messaging Protocol
       * [http://www.ripton.net/blog/?p=16 AMP chat example code] by David Ripton
       * [https://launchpad.net/game AMP game example code] by Christopher Armstrong & Jp Calderone
-    * Notify: Torque Network Library protocol
-      * [http://opentnl.sourceforge.net/doxydocs/fundamentals.html OpenTNL] & [http://github.com/nardo/tnl2 TNL2] (C++)
-    * [http://en.wikipedia.org/wiki/Transmission_Control_Protocol TCP] ("socket.SOCK_STREAM") Transmission Control Protocol: In general, TCP is not advised for real-time action games. It is fine for turn-based games or for games where you don't have to aim for the opponent (such as WoW where you select a character/item and then click on the action/spell you want to use on it.)
+    * [http://en.wikipedia.org/wiki/Transmission_Control_Protocol TCP]:  Transmission Control Protocol ("socket.SOCK_STREAM") 
+      * In general, TCP is not advised for real-time action games. It is fine for turn-based games or for games where you don't have to aim for the opponent (such as WoW where you select a character/object and then click on the action/spell you want to use on it.)
 
   * Tutorials:
     * [http://www.devshed.com/c/a/Python/Sockets-in-Python-Into-the-World-of-Python-Network-Programming/ Sockets in Python] (UDP & TCP) by A.P.Rajshekhar
@@ -69,6 +70,7 @@
     * [http://wiki.secondlife.com/w/index.php?title=Eventlet&oldid=51543 Eventlet] is a HTTP networking library written in Python by Bob Ippolito, used in Second Life
 
   * [http://gafferongames.com/2009/01/25/game-networking-resources/ List of network resources] by Glenn Fiedler
+  * [http://www.pygame.org/tags/network List of network resources] on PyGame
     
 ==Physics==
   * Tutorial:
@@ -123,8 +125,8 @@
     * [http://irrlicht.sourceforge.net/ Irrlicht] by Nikolaus Gebhardt
       * [https://opensvn.csie.org/traccgi/pyrr Pyrr] Python bindings for Irrlicht (out of date & no longer maintained)
     * [http://www.panda3d.org/ Panda 3D] by Disney Imagineering & Carnegie-Mellon's Entertainment Technology Center
-    * [http://home.gna.org/oomadness/en/soya3d/index.html Soya 3D] by Jean-Baptiste Lamy
-    * [http://www.pysoy.org/ PySoy 3D] is a fork of Soya 3D
+    * [http://home.gna.org/oomadness/en/soya3d/index.html Soya 3D] by Jean-Baptiste Lamy & Bertrand Lamy
+    * [http://www.pysoy.org/ PySoy 3D] is a fork of Soya 3D by Arc Riley
     * [http://www.pygame.org/project-PYGGEL-968-.html PYGGEL] Python Graphical Game Engine + Libraries by RoeBros
 
   * 3D content creation:
