@@ -154,7 +154,7 @@
 
 
 ==Browser Games==
-  * A [http://www.pbbg.org/links.asp list] of Persistent Browser Based Games (PBBGs) and tutorals
+  * A [http://www.pbbg.org/links.asp list] of Persistent Browser Based Games (PBBGs) and tutorials
   * On the client side, [http://code.google.com/p/pyjamas/ pyjamas] could be used to generate JavaScript
   * On the server side, one of these [http://wiki.python.org/moin/WebFrameworks frameworks] could be used
 
