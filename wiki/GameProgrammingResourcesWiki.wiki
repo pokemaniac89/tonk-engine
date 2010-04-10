@@ -152,6 +152,12 @@
   * [http://wiki.python.org/moin/GuiProgramming List of Python GUI tools]
   * [http://www.pygame.org/tags/gui List of Pygame GUI tools]
 
+
+==Browser Games==
+  * A [http://www.pbbg.org/links.asp list] of Persistent Browser Based Games (PBBGs) and tutorals
+  * On the client side, [http://code.google.com/p/pyjamas/ pyjamas] could be used to generate JavaScript
+  * On the server side, one of these [http://wiki.python.org/moin/WebFrameworks frameworks] could be used
+
 ==Artificial Intelligence==
   * Tutorials:
     * [http://www.policyalmanac.org/games/aStarTutorial.htm A* Pathfinding for Beginners] by Patrick Lester
