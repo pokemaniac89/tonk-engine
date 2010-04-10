@@ -156,7 +156,7 @@
 ==Browser Games==
   * A [http://www.pbbg.org/links.asp list] of Persistent Browser Based Games (PBBGs) and tutorials
   * On the client side, [http://code.google.com/p/pyjamas/ pyjamas] could be used to generate JavaScript
-  * On the server side, one of these [http://wiki.python.org/moin/WebFrameworks frameworks] could be used
+  * On the server side, one of these [http://wiki.python.org/moin/WebFrameworks web frameworks] could be used
 
 ==Artificial Intelligence==
   * Tutorials:
@@ -175,7 +175,7 @@
   * Documentation:
     * [http://docs.python.org/library/threading.html threading] Higher-level threading interface
 
-  * Tutoral:
+  * Tutorial:
     * [http://www.devshed.com/c/a/Python/Basic-Threading-in-Python/ Basic Threading in Python] by Peyton McCullough
 
   * [http://www.stackless.com/ Stackless Python], by Christian Tismer, *replaces* the Python executable (usually [http://en.wikipedia.org/wiki/CPython CPython]). Stackless implements microthreads ("green threads"), co-routines, channels and serialization.
