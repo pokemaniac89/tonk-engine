@@ -72,7 +72,13 @@
 
   * [http://gafferongames.com/2009/01/25/game-networking-resources/ List of network resources] by Glenn Fiedler
   * [http://www.pygame.org/tags/network List of network resources] on PyGame
-    
+ 
+
+==Browser Games==
+  * A [http://www.pbbg.org/links.asp list] of Persistent Browser Based Games (PBBGs) and tutorials
+  * For the client side, [http://code.google.com/p/pyjamas/ pyjamas] could be used to generate JavaScript which runs in the browser
+  * On the server side, one of these [http://wiki.python.org/moin/WebFrameworks web frameworks] could be used
+   
 ==Physics==
   * Tutorial:
     * [http://gafferongames.com/game-physics/ Game physics tutorial] by Glenn Fiedler is a good introduction (examples in C++) to the concepts and algorithms of game physics 
@@ -152,12 +158,6 @@
   * [http://wiki.python.org/moin/GuiProgramming List of Python GUI tools]
   * [http://www.pygame.org/tags/gui List of Pygame GUI tools]
 
-
-==Browser Games==
-  * A [http://www.pbbg.org/links.asp list] of Persistent Browser Based Games (PBBGs) and tutorials
-  * On the client side, [http://code.google.com/p/pyjamas/ pyjamas] could be used to generate JavaScript
-  * On the server side, one of these [http://wiki.python.org/moin/WebFrameworks web frameworks] could be used
-
 ==Artificial Intelligence==
   * Tutorials:
     * [http://www.policyalmanac.org/games/aStarTutorial.htm A* Pathfinding for Beginners] by Patrick Lester
@@ -175,7 +175,7 @@
   * Documentation:
     * [http://docs.python.org/library/threading.html threading] Higher-level threading interface
 
-  * Tutorial:
+  * Tutorials:
     * [http://www.devshed.com/c/a/Python/Basic-Threading-in-Python/ Basic Threading in Python] by Peyton McCullough
     * [http://www.dabeaz.com/coroutines/ A Curious Course on Coroutines and Concurrency] by David Beazley
 
