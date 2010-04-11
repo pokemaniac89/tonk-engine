@@ -177,6 +177,7 @@
 
   * Tutorial:
     * [http://www.devshed.com/c/a/Python/Basic-Threading-in-Python/ Basic Threading in Python] by Peyton McCullough
+    * [http://www.dabeaz.com/coroutines/ A Curious Course on Coroutines and Concurrency] by David Beazley
 
   * [http://www.stackless.com/ Stackless Python], by Christian Tismer, *replaces* the Python executable (usually [http://en.wikipedia.org/wiki/CPython CPython]). Stackless implements microthreads ("green threads"), co-routines, channels and serialization.
     * Stackless is being used by the [http://www.eveonline.com/ EVE Online] servers, presentations: [http://www.slideshare.net/Arbow/stackless-python-in-eve 2006], [http://us.pycon.org/2009/conference/schedule/event/91/ 2009]
