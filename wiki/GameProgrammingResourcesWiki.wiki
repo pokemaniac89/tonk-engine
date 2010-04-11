@@ -192,7 +192,7 @@
   * [http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/ Pyrex] lets you write code that mixes Python and C data types, and compiles it into a C extension for Python
   * [http://cython.org/ Cython] is a derivative of Pyrex
   * [http://pyinline.sourceforge.net/ PyInline] allows you to put source code from other programming languages directly "inline" in Python
-  * [http://www.jython.org/ Jython] is an implementation of Python written in Java
+  * [http://www.jython.org/ Jython] is an implementation of Python for the Java Virtual Machine
   * [http://ironpython.net/ IronPython] is an implementation of Python targeting the .NET Framework & Mono, by Jim Hugunin
   * [http://www.py2exe.org/ py2exe] is a Python Distutils  extension which converts Python scripts into executable Windows programs
   * [http://code.google.com/p/pyplugin/ PyPlugin] is a simple plugin framework for Python
