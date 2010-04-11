@@ -198,7 +198,7 @@
   * [http://code.google.com/p/pyplugin/ PyPlugin] is a simple plugin framework for Python
   
 
-==Game development portals==
+==Game developement portals==
   * [http://www.gamedev.net/ GameDev.net]
   * [http://www.gamasutra.com/ Gamasutra.com]
   * [http://www.devmaster.net/ DevMaster.net]
