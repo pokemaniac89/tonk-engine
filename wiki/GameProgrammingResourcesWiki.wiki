@@ -76,8 +76,8 @@
 
 ==Browser Games==
   * A [http://www.pbbg.org/links.asp list] of Persistent Browser Based Games (PBBGs) and tutorials
+  * On the server side, one of these [http://wiki.python.org/moin/WebFrameworks web frameworks] could be used, for example [http://www.djangoproject.com/ Django]
   * For the client side, [http://code.google.com/p/pyjamas/ pyjamas] could be used to generate JavaScript which runs in the browser
-  * On the server side, one of these [http://wiki.python.org/moin/WebFrameworks web frameworks] could be used
    
 ==Physics==
   * Tutorial:
