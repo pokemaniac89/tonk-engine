@@ -66,6 +66,7 @@
       * [http://www.artima.com/weblogs/viewpost.jsp?thread=156396 Grokking Twisted] by Bruce Eckel
     * [http://www.pygame.org/project-Mastermind+Networking+Lib-859-.html Mastermind networking lib] (UDP & TCP) by Ian Mallett
       * [http://www.pygame.org/project-Spacewar+Multi-1025-.html Spacewar Multi] example game using TCP
+    * [http://www.pygame.org/project-Astral+Networking-1605-2838.html Astral Networking] by Patrick Mullen on top of TCP.
     * [http://www.pygame.org/project-PygLibs.net-835-.html PygLibs.net] by RoeBros
     * [http://code.google.com/p/podsixnet/ Podsixnet game networking library] (TCP) by Chris McCormick
     * [http://wiki.secondlife.com/w/index.php?title=Eventlet&oldid=51543 Eventlet] is a HTTP networking library written in Python by Bob Ippolito, used in Second Life
