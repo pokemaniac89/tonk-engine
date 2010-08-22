@@ -27,6 +27,7 @@
     * [http://www.pygame.org/wiki/CookBook Pygame cookbook]
     * [http://rene.f0o.com/mywiki/PythonGameProgramming Python Game Programming] by Rene Dudfield & Geoff Howland
     * [http://inventwithpython.com/ Invent your own computer games with Python] by Albert Sweigart
+    * [http://www.cs.iupui.edu/~aharris/pygame/ Game Programming - L Line] by Andy Harris, book and video online course
 
   * [http://www.pygame.org/tags/libraries List of Pygame Libraries]
 
@@ -196,7 +197,7 @@
   * [http://www.jython.org/ Jython] is an implementation of Python for the Java Virtual Machine
   * [http://ironpython.net/ IronPython] is an implementation of Python targeting the .NET Framework & Mono, by Jim Hugunin
   * [http://www.py2exe.org/ py2exe] is a Python Distutils  extension which converts Python scripts into executable Windows programs
-    * An excellent [http://www.cs.iupui.edu/~aharris/pygame/Appendix_C.pdf tutorial (PDF) on building windows installers for Python games] using py2exe, [http://nsis.sourceforge.net/Main_Page Nullsoft NSIS] & [http://hmne.sourceforge.net/ HM NIS Edit]
+    * An excellent [http://www.cs.iupui.edu/~aharris/pygame/Appendix_C.pdf tutorial (PDF) on building windows installers for Python games] using py2exe, [http://nsis.sourceforge.net/Main_Page Nullsoft NSIS] & [http://hmne.sourceforge.net/ HM NIS Edit] by by Andy Harris
   * [http://code.google.com/p/pyplugin/ PyPlugin] is a simple plugin framework for Python
   
 
