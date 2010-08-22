@@ -196,6 +196,7 @@
   * [http://www.jython.org/ Jython] is an implementation of Python for the Java Virtual Machine
   * [http://ironpython.net/ IronPython] is an implementation of Python targeting the .NET Framework & Mono, by Jim Hugunin
   * [http://www.py2exe.org/ py2exe] is a Python Distutils  extension which converts Python scripts into executable Windows programs
+    * An excellent [http://www.cs.iupui.edu/~aharris/pygame/Appendix_C.pdf tutorial (PDF) on building windows installers for Python games] using py2exe, Nullsoft NSIS & HM NIS Edit
   * [http://code.google.com/p/pyplugin/ PyPlugin] is a simple plugin framework for Python
   
 
