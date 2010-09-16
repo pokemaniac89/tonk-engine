@@ -143,6 +143,7 @@
       * [http://wiki.blender.org/index.php/Doc:Manual/Extensions/Python Blender 3D Python scripting]
       * [http://wiki.blender.org/index.php/Extensions:Py/Scripts Blender 3D Python tutorials]
       * [http://www.ruthless.zathras.de/facts/apps/polygonesia/blender.php Death to usability, or learn Blender in 20 minutes nonetheless]
+      * Free books on the Blender game engine: [http://download.blender.org/documentation/gamekit1/ here] & [http://download.blender.org/documentation/gamekit2/ here]
 
   * [http://www.vrplumber.com/py3d.py List of Python 3D Software]
   * [http://www.moddb.com/engines/ List of game engines] at Mod DB
