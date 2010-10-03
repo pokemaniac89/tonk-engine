@@ -191,8 +191,6 @@
   * [http://code.google.com/p/python-csp/ Python-CSP] implements [http://en.wikipedia.org/wiki/Communicating_sequential_processes Communicating Sequential Processes] on top of Python
 
 ==Compatibility==
-  * [http://www.py2exe.org/ py2exe] is a Python Distutils  extension which converts Python scripts into executable Windows programs
-    * An excellent [http://www.cs.iupui.edu/~aharris/pygame/Appendix_C.pdf tutorial (PDF) on building windows installers for Python games] using py2exe, [http://nsis.sourceforge.net/Main_Page Nullsoft NSIS] & [http://hmne.sourceforge.net/ HM NIS Edit] by Andy Harris
   * [http://www.swig.org/ SWIG] (Simplified Wrapper and Interface Generator) is used to connect programs or libraries written in C/C++ with scripting languages such as Python.
   * [http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/ Pyrex] lets you write code that mixes Python and C data types, and compiles it into a C extension for Python
   * [http://cython.org/ Cython] is a derivative of Pyrex
@@ -201,6 +199,12 @@
   * [http://ironpython.net/ IronPython] is an implementation of Python targeting the .NET Framework & Mono, by Jim Hugunin
   * [http://code.google.com/p/pyplugin/ PyPlugin] is a simple plugin framework for Python
   
+==Distribution==
+  * [http://docs.python.org/distutils/ Distutils]
+    * [http://www.py2exe.org/ py2exe] is a Python Distutils  extension which converts Python scripts into executable Windows programs
+      * An excellent [http://www.cs.iupui.edu/~aharris/pygame/Appendix_C.pdf tutorial (PDF) on building windows installers for Python games] using py2exe, [http://nsis.sourceforge.net/Main_Page Nullsoft NSIS] & [http://hmne.sourceforge.net/ HM NIS Edit] by Andy Harris
+  * [http://www.pyinstaller.org/ PyInstaller] converts (packages) Python programs into stand-alone executables, under Windows, Linux, and Mac OS X.
+  * [http://pypi.python.org/pypi Python Package Index]
 
 ==Game developement portals==
   * [http://www.gamedev.net/ GameDev.net]
