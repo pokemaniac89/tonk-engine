@@ -201,8 +201,8 @@
   
 ==Distribution==
   * [http://docs.python.org/distutils/ Distutils]
-    * [http://www.py2exe.org/ py2exe] is a Python Distutils  extension which converts Python scripts into executable Windows programs
-      * An excellent [http://www.cs.iupui.edu/~aharris/pygame/Appendix_C.pdf tutorial (PDF) on building windows installers for Python games] using py2exe, [http://nsis.sourceforge.net/Main_Page Nullsoft NSIS] & [http://hmne.sourceforge.net/ HM NIS Edit] by Andy Harris
+    * [http://www.py2exe.org/ py2exe] is a Distutils  extension which converts Python scripts into executable Windows programs
+      * An excellent [http://www.cs.iupui.edu/~aharris/pygame/Appendix_C.pdf tutorial (PDF) on building windows installers for Python games] by Andy Harris using py2exe, [http://nsis.sourceforge.net/Main_Page Nullsoft NSIS] & [http://hmne.sourceforge.net/ HM NIS Edit] by Andy Harris
   * [http://www.pyinstaller.org/ PyInstaller] converts (packages) Python programs into stand-alone executables, under Windows, Linux, and Mac OS X.
   * [http://pypi.python.org/pypi Python Package Index]
 
