@@ -137,7 +137,7 @@
     * [http://home.gna.org/oomadness/en/soya3d/index.html Soya 3D] by Jean-Baptiste Lamy & Bertrand Lamy
     * [http://www.pysoy.org/ PySoy 3D] is a fork of Soya 3D by Arc Riley
     * [http://www.pygame.org/project-PYGGEL-968-.html PYGGEL] Python Graphical Game Engine + Libraries by RoeBros
-    * [http://en.wikipedia.org/wiki/Game_Blender Game Blender], the engine of Blender
+    * [http://en.wikipedia.org/wiki/Game_Blender Game Blender], the engine of Blender 3D
 
   * 3D content creation:
     * [http://www.blender.org/ Blender 3D] content creation suite
