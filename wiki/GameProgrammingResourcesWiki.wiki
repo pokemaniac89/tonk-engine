@@ -125,6 +125,7 @@
     * [http://www.fifengine.de/ FIFE] Flexible Isometric Free Engine
     * [http://www.pygame.org/project-Isomyr-1316-.html Isomyr] by Duncan McGreggor
     * [http://www.pygame.org/project-pyTile-871-.html PyTile] by Timothy Baldock
+    * [http://www.pygame.org/project-Shmup+%26+Build-1667-2904.html Shmup & Build] by Bander
 
   * 3D engines:
     * [http://www.ogre3d.org/ Ogre] Object-Oriented Graphics Rendering Engine
