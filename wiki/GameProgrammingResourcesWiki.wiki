@@ -9,7 +9,7 @@
 
   * Tutorials:
     * [http://docs.python.org/tutorial/ Official Python tutorial]
-    * [http://diveintopython.org/ Dive into Python] by Mark Pilgrim
+    * [http://www.diveintopython.net/ Dive into Python] by Mark Pilgrim
     * [http://www.greenteapress.com/thinkpython/thinkpython.html How to Think Like a Computer Scientist] by Allen B. Downey 
 
   * [http://wiki.python.org/moin/GameProgramming List of Python game programming tools]
